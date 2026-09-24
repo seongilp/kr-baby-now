@@ -6,6 +6,9 @@ import { busanGrants, idolbomDocs } from '@/lib/info-data';
 
 export const metadata: Metadata = { title: '돌봄·지원 정보' };
 
+/** 구·군 출산지원금 1인당 상한 추정치. 이보다 큰 값(예: 4,210만원)은 총 지급액이 섞인 것으로 보고 숫자를 그대로 싣지 않는다. */
+const PER_CHILD_MAX = 10_000_000;
+
 export default function InfoPage() {
   const grants = busanGrants();
   const docs = idolbomDocs();
@@ -38,7 +41,13 @@ export default function InfoPage() {
                       <span className="line-clamp-2">{r.division}</span>
                     </span>
                     <span className="shrink-0 font-medium tabular-nums">
-                      {r.amount != null ? `${r.amount.toLocaleString()}원` : '—'}
+                      {r.amount == null ? '—' : r.amount > PER_CHILD_MAX ? (
+                        <span className="text-muted-foreground" title={`${r.amount.toLocaleString()}원 — 1인당 금액이 아니라 총 지급액일 수 있습니다`}>
+                          기준 불명확
+                        </span>
+                      ) : (
+                        `${r.amount.toLocaleString()}원`
+                      )}
                     </span>
                   </li>
                 ))}
