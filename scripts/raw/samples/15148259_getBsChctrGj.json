@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "149",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "금정구",
+            "chctrNm": "시온어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "N",
+            "zip": "46220",
+            "dtlAddr": "부산광역시 금정구 금강로 688-3",
+            "telno": "051-514-3594",
+            "fxno": "051-514-3594",
+            "hopgUrlAddr": "http://cafe.naver.com/n49.cafe",
+            "careRoomCnt": "5",
+            "careRoomArea": "139",
+            "plgndCnt": "1",
+            "cctvInstlCnt": "6",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "49",
+            "cnppCnt": "0",
+            "fcltLat": "35.2688672",
+            "fcltLot": "129.0894899",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "19970306",
+            "pvsnSrvcNm": "야간연장형",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "금정구",
+            "chctrNm": "신나는 어린이집",
+            "chctrTypeNm": "가정",
+            "operYn": "N",
+            "zip": "46325",
+            "dtlAddr": "부산광역시 금정구 서동로130번길 19-9",
+            "telno": "051-529-3437",
+            "fxno": "051-529-3436",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "3",
+            "careRoomArea": "55",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "4",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "19",
+            "cnppCnt": "0",
+            "fcltLat": "35.25528765",
+            "fcltLot": "129.0905379",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "20010411",
+            "pvsnSrvcNm": "야간연장형",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "금정구",
+            "chctrNm": "신나라어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "N",
+            "zip": "46227",
+            "dtlAddr": "부산광역시 금정구 두실로8번길 14 (남산동)",
+            "telno": "051-513-3425",
+            "fxno": "051-513-3425",
+            "hopgUrlAddr": "band.us/@sinnarakids",
+            "careRoomCnt": "9",
+            "careRoomArea": "103",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "6",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "27",
+            "cnppCnt": "0",
+            "fcltLat": "35.26121972",
+            "fcltLot": "129.0906206",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "19990415",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

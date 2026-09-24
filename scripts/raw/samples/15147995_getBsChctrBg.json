@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "252",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "북구",
+            "chctrNm": "21세기어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "Y",
+            "zip": "46531",
+            "dtlAddr": "부산광역시 북구 금곡대로330번길 20 (화명동)",
+            "telno": "051-343-5201",
+            "fxno": "051-343-5199",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "4",
+            "careRoomArea": "175",
+            "plgndCnt": "1",
+            "cctvInstlCnt": "7",
+            "nturEduStaffCnt": "9",
+            "pscpCnt": "70",
+            "cnppCnt": "58",
+            "fcltLat": "35.23775878",
+            "fcltLot": "129.0150905",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "19971209",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "북구",
+            "chctrNm": "YMCA 어린이집",
+            "chctrTypeNm": "사회복지법인",
+            "operYn": "N",
+            "zip": null,
+            "dtlAddr": "부산 북구 금곡동 98-1",
+            "telno": "051-361-5656",
+            "fxno": "051-361-0045",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "1",
+            "careRoomArea": "1",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "0",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "121",
+            "cnppCnt": "0",
+            "fcltLat": null,
+            "fcltLot": null,
+            "atschVhclOperYn": null,
+            "sncnYmd": "19950302",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "북구",
+            "chctrNm": "YMCA어린이집",
+            "chctrTypeNm": "국공립",
+            "operYn": "N",
+            "zip": "46507",
+            "dtlAddr": "부산광역시 북구 금곡대로616번길 10-9 동원종합사회복지관 내",
+            "telno": "051-361-5656",
+            "fxno": "051-361-5653",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "5",
+            "careRoomArea": "259",
+            "plgndCnt": "5",
+            "cctvInstlCnt": "5",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "60",
+            "cnppCnt": "0",
+            "fcltLat": "35.26074805",
+            "fcltLot": "129.0152408",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "19950315",
+            "pvsnSrvcNm": "장애아통합",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

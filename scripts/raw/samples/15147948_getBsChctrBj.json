@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "218",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "부산진구",
+            "chctrNm": "꿈초롱어린이집",
+            "chctrTypeNm": "가정",
+            "operYn": "Y",
+            "zip": "47240",
+            "dtlAddr": "부산광역시 부산진구 동성로 82 106동 101호(전포동, 부산전포사랑으로부영)",
+            "telno": "051-805-0454",
+            "fxno": "051-816-0466",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "3",
+            "careRoomArea": "53",
+            "plgndCnt": "1",
+            "cctvInstlCnt": "4",
+            "nturEduStaffCnt": "5",
+            "pscpCnt": "19",
+            "cnppCnt": "15",
+            "fcltLat": "35.15192031",
+            "fcltLot": "129.0725792",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "19960820",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "부산진구",
+            "chctrNm": "나라어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "N",
+            "zip": null,
+            "dtlAddr": "부산광역시 부산진구 당감서로 120 (당감동)",
+            "telno": "051-897-3330",
+            "fxno": "051-894-1782",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "9",
+            "careRoomArea": "375",
+            "plgndCnt": "2",
+            "cctvInstlCnt": "13",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "81",
+            "cnppCnt": "0",
+            "fcltLat": "35.16926726",
+            "fcltLot": "129.0336168",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "20020115",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "부산진구",
+            "chctrNm": "나무와아이들어린이집",
+            "chctrTypeNm": "가정",
+            "operYn": "N",
+            "zip": "47157",
+            "dtlAddr": "부산광역시 부산진구 백양관문로 104 108동 101호(당감동, 국제백양아파트)",
+            "telno": "051-891-9847",
+            "fxno": "051-891-9847",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "3",
+            "careRoomArea": "56",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "4",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "19",
+            "cnppCnt": "0",
+            "fcltLat": "35.16852001",
+            "fcltLot": "129.0283218",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "19961211",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "174",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "동래구",
+            "chctrNm": "주주어린이집",
+            "chctrTypeNm": "가정",
+            "operYn": "N",
+            "zip": "47895",
+            "dtlAddr": "부산광역시 동래구 안남로 89-6 (안락2동)",
+            "telno": "051-554-2600",
+            "fxno": "051-532-5126",
+            "hopgUrlAddr": "http://cafe.naver.com/juju2580",
+            "careRoomCnt": "4",
+            "careRoomArea": "69",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "5",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "20",
+            "cnppCnt": "0",
+            "fcltLat": "35.19382624",
+            "fcltLot": "129.1021239",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20030711",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "동래구",
+            "chctrNm": "지혜숲어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "N",
+            "zip": "47780",
+            "dtlAddr": "부산광역시 동래구 명안로71번길 37-6 (명장1동)",
+            "telno": "051-528-3057",
+            "fxno": null,
+            "hopgUrlAddr": null,
+            "careRoomCnt": "2",
+            "careRoomArea": "107",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "4",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "32",
+            "cnppCnt": "0",
+            "fcltLat": "35.20319419",
+            "fcltLot": "129.101932",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "19880825",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "동래구",
+            "chctrNm": "지혜어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "Y",
+            "zip": "47780",
+            "dtlAddr": "부산광역시 동래구 명안로71번길 37-4 (명장1동)",
+            "telno": "051-522-3057",
+            "fxno": "051-522-3058",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "8",
+            "careRoomArea": "184",
+            "plgndCnt": "2",
+            "cctvInstlCnt": "15",
+            "nturEduStaffCnt": "8",
+            "pscpCnt": "64",
+            "cnppCnt": "28",
+            "fcltLat": "35.2033263",
+            "fcltLot": "129.1019755",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "20020810",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

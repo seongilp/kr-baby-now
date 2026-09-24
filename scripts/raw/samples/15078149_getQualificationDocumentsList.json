@@ -1,0 +1,42 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0",
+      "resultMsg": "NORMAL SERVICE"
+    },
+    "body": {
+      "resultType": "json",
+      "numOfRows": 3,
+      "totalCount": 28,
+      "pageNo": 1,
+      "items": {
+        "item": [
+          {
+            "crtrYr": "2020",
+            "gvmtSprtDvsnNm": "한부모 가정",
+            "sprtTrgtNm": "",
+            "flfllDcmntCn": "○조손가족 여부 : 가족관계증명서",
+            "idntyAndIssuMeanCn": "행복e음 연계\n(서류제출 불필요)\n(필요시 증빙서류 제출)",
+            "dataCrtrYmd": "20260413"
+          },
+          {
+            "crtrYr": "2020",
+            "gvmtSprtDvsnNm": "한부모 가정",
+            "sprtTrgtNm": "",
+            "flfllDcmntCn": "○한부모가족 여부\n - 한부모가족증명서(한부모가족지원법 제5조 근거)\n - 가족관계증명서(한부모가족지원법 제4조 및 한부모가족지원사업 안내 참고)\n①사별, 이혼, 유기된 자, ②근로능력 상실자(20세미만 중･고교생, 3급이상 상이등급 보유 국가유공자, 장기요양 1~5급, 희귀난치성질환자, 중증질환자), ③미혼모･미혼부, ④배우자 생사불명자, ⑤가정폭력에 의한 가출자, ⑥군복무자, ⑦장기복역자 등",
+            "idntyAndIssuMeanCn": "행복e음 연계\n(서류제출 불필요)\n(필요시 증빙서류 제출)",
+            "dataCrtrYmd": "20260413"
+          },
+          {
+            "crtrYr": "2020",
+            "gvmtSprtDvsnNm": "다자녀 가정",
+            "sprtTrgtNm": "",
+            "flfllDcmntCn": "○가족관계등록부",
+            "idntyAndIssuMeanCn": "행복e음 연계\n(서류제출 불필요)",
+            "dataCrtrYmd": "20260413"
+          }
+        ]
+      }
+    }
+  }
+}

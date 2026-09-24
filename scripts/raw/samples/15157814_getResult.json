@@ -1,0 +1,53 @@
+{
+  "response": {
+    "body": {
+      "pageNo": "1",
+      "totalCount": 7,
+      "numOfRows": "3",
+      "items": {
+        "item": [
+          {
+            "no": "1",
+            "fcltyNm": "금호윤성지역아동센터",
+            "addr": "영천시 금호읍 야수골길 9-2",
+            "fullPrsnCnt": "29",
+            "currPrsnCnt": "27",
+            "tel": "054-333-9622",
+            "fax": "054-333-9622",
+            "time": "10:00~20:00",
+            "type": "기본",
+            "mealYn": "도시락"
+          },
+          {
+            "no": "2",
+            "fcltyNm": "영천시야사지역아동센터",
+            "addr": "영천시 충효로 147 (야사동)",
+            "fullPrsnCnt": "35",
+            "currPrsnCnt": "34",
+            "tel": "054-332-8418",
+            "fax": "054-332-4821",
+            "time": "10:00~20:00",
+            "type": "기본",
+            "mealYn": "자체조리"
+          },
+          {
+            "no": "3",
+            "fcltyNm": "큰사랑지역아동센터",
+            "addr": "영천시 망정2길 7-4 화성빌딩2층(망정동)",
+            "fullPrsnCnt": "29",
+            "currPrsnCnt": "28",
+            "tel": "054-331-9634",
+            "fax": "054-334-2768",
+            "time": "10:00~21:00",
+            "type": "특수목적형(저녁운영)",
+            "mealYn": "도시락"
+          }
+        ]
+      }
+    },
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL_SERVICE"
+    }
+  }
+}

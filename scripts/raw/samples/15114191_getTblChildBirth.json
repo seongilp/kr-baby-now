@@ -1,0 +1,44 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "82",
+      "items": {
+        "item": [
+          {
+            "gugun": "중구",
+            "pay_year": "2024",
+            "subsidy_type": "출산장려",
+            "division": "첫째아",
+            "subsidy": "300000",
+            "department_name": "가족행복과",
+            "basic_date": "2025-12-08"
+          },
+          {
+            "gugun": "중구",
+            "pay_year": "2024",
+            "subsidy_type": "출산장려",
+            "division": "둘째아",
+            "subsidy": "600000",
+            "department_name": "가족행복과",
+            "basic_date": "2025-12-08"
+          },
+          {
+            "gugun": "중구",
+            "pay_year": "2023",
+            "subsidy_type": "출산장려",
+            "division": "첫째아",
+            "subsidy": "300000",
+            "department_name": "가족행복과",
+            "basic_date": "2025-12-08"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

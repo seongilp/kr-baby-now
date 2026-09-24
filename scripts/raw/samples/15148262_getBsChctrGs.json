@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "164",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "강서구",
+            "chctrNm": "나무와아이어린이집",
+            "chctrTypeNm": "가정",
+            "operYn": "N",
+            "zip": "46760",
+            "dtlAddr": "부산광역시 강서구 신호산단4로 27 217동 103호(신호동,부영2차)",
+            "telno": "051-831-6742",
+            "fxno": "051-831-6742",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "3",
+            "careRoomArea": "55",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "4",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "20",
+            "cnppCnt": "0",
+            "fcltLat": "35.0871112439",
+            "fcltLot": "128.8735159068",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20150618",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "강서구",
+            "chctrNm": "낙동어린이집",
+            "chctrTypeNm": "국공립",
+            "operYn": "Y",
+            "zip": "46717",
+            "dtlAddr": "부산광역시 강서구 순아강변길 5 (명지동)",
+            "telno": "051-271-0535",
+            "fxno": "051-271-0534",
+            "hopgUrlAddr": "www.ndswc.or.kr",
+            "careRoomCnt": "4",
+            "careRoomArea": "114",
+            "plgndCnt": "1",
+            "cctvInstlCnt": "16",
+            "nturEduStaffCnt": "10",
+            "pscpCnt": "43",
+            "cnppCnt": "31",
+            "fcltLat": "35.11974131",
+            "fcltLot": "128.9028163",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "20000306",
+            "pvsnSrvcNm": "장애아통합,야간연장형",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "강서구",
+            "chctrNm": "노리숲어린이집",
+            "chctrTypeNm": "가정",
+            "operYn": "Y",
+            "zip": "46726",
+            "dtlAddr": "부산광역시 강서구 명지국제7로 110 102동102호(명지동, 더 힐 시그니처)",
+            "telno": "051-208-1020",
+            "fxno": "051-208-1050",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "4",
+            "careRoomArea": "82",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "5",
+            "nturEduStaffCnt": "4",
+            "pscpCnt": "20",
+            "cnppCnt": "13",
+            "fcltLat": "35.0957743215",
+            "fcltLot": "128.9139060317",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20111111",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

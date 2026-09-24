@@ -1,0 +1,69 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0",
+      "resultMsg": "NORMAL SERVICE"
+    },
+    "body": {
+      "resultType": "json",
+      "numOfRows": 3,
+      "totalCount": 232,
+      "pageNo": 1,
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "강원",
+            "sggNm": "강릉시",
+            "childCareInstNo": "C0383",
+            "childCareInstNm": "강원 강릉시 강릉어린이집연합회",
+            "upChildCareInstNo": "C0500",
+            "upChildCareInstNm": "강원도 광역거점",
+            "srvcPvsnAreaNm": "",
+            "rprsTelno": "033-655-4385",
+            "drtlnTelno": "033-655-4385",
+            "fxno": "033-655-7385",
+            "zip": "25548",
+            "addr": "강원 강릉시 성덕포남로 80-22",
+            "lot": 128.907174,
+            "lat": 37.76115,
+            "dataCrtrYmd": "20260413"
+          },
+          {
+            "ctpvNm": "강원",
+            "sggNm": "고성군",
+            "childCareInstNo": "C0384",
+            "childCareInstNm": "강원 고성군 건강가정지원센터",
+            "upChildCareInstNo": "C0500",
+            "upChildCareInstNm": "강원도 광역거점",
+            "srvcPvsnAreaNm": "",
+            "rprsTelno": "033-681-9335",
+            "drtlnTelno": "033-681-9335",
+            "fxno": "033-681-9391",
+            "zip": "24729",
+            "addr": "강원도 고성군 간성읍 간성로",
+            "lot": 128.463957,
+            "lat": 38.380689,
+            "dataCrtrYmd": "20260413"
+          },
+          {
+            "ctpvNm": "강원",
+            "sggNm": "동해시",
+            "childCareInstNo": "C0385",
+            "childCareInstNm": "강원 동해시 가족센터",
+            "upChildCareInstNo": "C0500",
+            "upChildCareInstNm": "강원도 광역거점",
+            "srvcPvsnAreaNm": "",
+            "rprsTelno": "033-535-4555",
+            "drtlnTelno": "",
+            "fxno": "033-535-8379",
+            "zip": "25755",
+            "addr": "강원도 동해시 천곡동 천곡1길",
+            "lot": 129.113931,
+            "lat": 37.527156,
+            "dataCrtrYmd": "20260413"
+          }
+        ]
+      }
+    }
+  }
+}

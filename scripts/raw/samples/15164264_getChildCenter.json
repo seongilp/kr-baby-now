@@ -1,0 +1,65 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "212",
+      "items": {
+        "item": [
+          {
+            "sggNm": "사하구",
+            "stdgNm": "당리동",
+            "dongNm": "당리동",
+            "instNm": "사하중앙지역아동센터",
+            "instAddr": "사하구 승학로 123, 1층(당리동)",
+            "telno": "051-204-0501",
+            "operDowkNm": "월-금",
+            "dyoffDayNm": "토, 일, 공휴일",
+            "smstrBgng": "10:00",
+            "smstrEnd": "20:00",
+            "vctnBgng": "10:00",
+            "vctnEnd": "20:00",
+            "utztnTrgtNm": "수급자, 차상위계층, 다문화, 장애인, 탈북민 등 우선보호아동 50% 이상 그외 일반아동",
+            "utztnCrgAdiInfoCn": "무료"
+          },
+          {
+            "sggNm": "사하구",
+            "stdgNm": "당리동",
+            "dongNm": "당리동",
+            "instNm": "승학지역아동센터",
+            "instAddr": "사하구 제석로 46-1, 4층(당리동)",
+            "telno": "051-201-1150",
+            "operDowkNm": "월-토",
+            "dyoffDayNm": "일, 공휴일",
+            "smstrBgng": "11:00",
+            "smstrEnd": "23:00",
+            "vctnBgng": "11:00",
+            "vctnEnd": "22:00",
+            "utztnTrgtNm": "수급자, 차상위계층, 다문화, 장애인, 탈북민 등 우선보호아동 50% 이상 그외 일반아동",
+            "utztnCrgAdiInfoCn": "무료"
+          },
+          {
+            "sggNm": "사하구",
+            "stdgNm": "당리동",
+            "dongNm": "당리동",
+            "instNm": "희망주는지역아동센터",
+            "instAddr": "사하구 동매로 161, 2층(당리동)",
+            "telno": "051-294-9000",
+            "operDowkNm": "월-금",
+            "dyoffDayNm": "토, 일, 공휴일",
+            "smstrBgng": "10:00",
+            "smstrEnd": "20:00",
+            "vctnBgng": "10:00",
+            "vctnEnd": "20:00",
+            "utztnTrgtNm": "수급자, 차상위계층, 다문화, 장애인, 탈북민 등 우선보호아동 50% 이상 그외 일반아동",
+            "utztnCrgAdiInfoCn": "무료"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

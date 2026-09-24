@@ -1,0 +1,65 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "78",
+      "items": {
+        "item": [
+          {
+            "sggNm": "중구",
+            "stdgNm": "대청동4가",
+            "dongNm": "대청동",
+            "instNm": "대청 다함께돌봄센터",
+            "instAddr": "중구 중구로 97(대청동4가)",
+            "telno": "051-441-2588",
+            "operDowkNm": "월-금",
+            "dyoffDayNm": "토, 일, 공휴일",
+            "smstrBgng": "10:00",
+            "smstrEnd": "19:00",
+            "vctnBgng": "9:00",
+            "vctnEnd": "18:00",
+            "utztnTrgtNm": "초1~초6",
+            "utztnCrgAdiInfoCn": "월 10만원 이내"
+          },
+          {
+            "sggNm": "중구",
+            "stdgNm": "영주동",
+            "dongNm": "영주1동",
+            "instNm": "중구 다함께돌봄센터",
+            "instAddr": "중구 초량상로7번길 11(영주동)",
+            "telno": "051-441-5600",
+            "operDowkNm": "월-금",
+            "dyoffDayNm": "토, 일, 공휴일",
+            "smstrBgng": "10:00",
+            "smstrEnd": "19:00",
+            "vctnBgng": "9:00",
+            "vctnEnd": "18:00",
+            "utztnTrgtNm": "초1~초6",
+            "utztnCrgAdiInfoCn": "월 10만원 이내"
+          },
+          {
+            "sggNm": "서구",
+            "stdgNm": "부용동1가",
+            "dongNm": "부민동",
+            "instNm": "서구부민다함께돌봄센터",
+            "instAddr": "서구 구덕로250번길 6, 2층(부민동, 부민동복합센터)",
+            "telno": "051-248-2480",
+            "operDowkNm": "월-금",
+            "dyoffDayNm": "토, 일, 공휴일",
+            "smstrBgng": "11:00",
+            "smstrEnd": "20:00",
+            "vctnBgng": "8:30",
+            "vctnEnd": "18:00",
+            "utztnTrgtNm": "초1~초6",
+            "utztnCrgAdiInfoCn": "월 10만원 이내"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

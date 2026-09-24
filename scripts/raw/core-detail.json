@@ -1,0 +1,6349 @@
+[
+  {
+    "pk": "15095719",
+    "title": "제주특별자치도_시도별 합계 출산율 정보",
+    "org": "제주특별자치도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15095719/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15032796",
+    "title": "경기도 광명시_조산원(의원급) 현황",
+    "org": "경기도 광명시",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15032796/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15108167",
+    "title": "대전광역시 서구_임산부우대업소현황",
+    "org": "대전광역시 서구",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15108167/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15059456",
+    "title": "경기도_종합병원 산부인과 현황",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15059456/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15058512",
+    "title": "경기도_병원급산부인과 현황",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15058512/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15110594",
+    "title": "대구광역시 동구_임산부우대 음식점 현황",
+    "org": "대구광역시 동구",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15110594/openapi.do",
+    "operations": [
+      {
+        "path": "/getPreferredPregnantWmnRstrn",
+        "method": "get",
+        "label": "대구광역시 동구 임산부 우대 음식점 현황 데이터 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "header",
+            "desc": ""
+          },
+          {
+            "name": "body",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15059211",
+    "title": "경기도_조산원(의원급) 현황",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15059211/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15154981",
+    "title": "행정안전부_건강_산후조리업 조회서비스",
+    "org": "행정안전부",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15154981/openapi.do",
+    "operations": [
+      {
+        "path": "/info",
+        "method": "get",
+        "label": "건강_산후조리업 데이터 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "응답의 결과 코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "응답의 결과 메세지"
+          },
+          {
+            "name": "dataType",
+            "desc": "응답의 데이터 타입"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "totalCount",
+            "desc": "응답 데이터의 수"
+          },
+          {
+            "name": "OPN_ATMY_GRP_CD",
+            "desc": "개방자치단체코드"
+          },
+          {
+            "name": "MNG_NO",
+            "desc": "관리번호"
+          },
+          {
+            "name": "NRS_CNT",
+            "desc": "간호사수"
+          },
+          {
+            "name": "NRSAD_CNT",
+            "desc": "간호조무사수"
+          },
+          {
+            "name": "BLDG_FLR_CNT",
+            "desc": "건물층수"
+          },
+          {
+            "name": "SCHML_FCLT_AREA",
+            "desc": "급식시설면적"
+          },
+          {
+            "name": "ETC_NOPE",
+            "desc": "기타인원수"
+          },
+          {
+            "name": "DAT_UPDT_SE",
+            "desc": "데이터갱신구분"
+          },
+          {
+            "name": "DAT_UPDT_PNT",
+            "desc": "데이터갱신시점(YYYYMMDDHHMMSS)"
+          },
+          {
+            "name": "ROAD_NM_ZIP",
+            "desc": "도로명우편번호"
+          },
+          {
+            "name": "ROAD_NM_ADDR",
+            "desc": "도로명주소"
+          },
+          {
+            "name": "BRFD_RM_AREA",
+            "desc": "모유수유실면적"
+          },
+          {
+            "name": "BTH_RM_AREA",
+            "desc": "목욕실면적"
+          },
+          {
+            "name": "GBGCO_CNT",
+            "desc": "미화원수"
+          },
+          {
+            "name": "OFC_AREA",
+            "desc": "사무실면적"
+          },
+          {
+            "name": "BPLC_NM",
+            "desc": "사업장명"
+          },
+          {
+            "name": "DTL_SALS_STTS_NM",
+            "desc": "상세영업상태명"
+          },
+          {
+            "name": "DTL_SALS_STTS_CD",
+            "desc": "상세영업상태코드"
+          },
+          {
+            "name": "WASH_RM_AREA",
+            "desc": "세탁실면적"
+          },
+          {
+            "name": "NUTR_CNT",
+            "desc": "영양사수"
+          },
+          {
+            "name": "SALS_STTS_NM",
+            "desc": "영업상태명"
+          },
+          {
+            "name": "SALS_STTS_CD",
+            "desc": "영업상태코드"
+          },
+          {
+            "name": "INFANT_RM_AREA",
+            "desc": "영유아실면적"
+          },
+          {
+            "name": "INFANT_PSCP_CNT",
+            "desc": "영유아정원수"
+          },
+          {
+            "name": "LCPMT_YMD",
+            "desc": "인허가일자(YYYYMMDD)"
+          },
+          {
+            "name": "LCPMT_RTRCN_YMD",
+            "desc": "인허가취소일자(YYYYMMDD)"
+          },
+          {
+            "name": "PRGNW_RM_AREA",
+            "desc": "임산부실면적"
+          },
+          {
+            "name": "PRGNW_PSCP_CNT",
+            "desc": "임산부정원수"
+          },
+          {
+            "name": "TELNO",
+            "desc": "전화번호"
+          },
+          {
+            "name": "CRFCLT_RSTRM_AREA",
+            "desc": "조리원화장실면적"
+          },
+          {
+            "name": "CRD_INFO_X",
+            "desc": "좌표정보(X)"
+          },
+          {
+            "name": "CRD_INFO_Y",
+            "desc": "좌표정보(Y)"
+          },
+          {
+            "name": "LOTNO_ADDR",
+            "desc": "지번주소"
+          },
+          {
+            "name": "GRND_NOFL",
+            "desc": "지상층수"
+          },
+          {
+            "name": "UDGD_NOFL",
+            "desc": "지하층수"
+          },
+          {
+            "name": "COOK_CNT",
+            "desc": "취사부수"
+          },
+          {
+            "name": "CLSBIZ_YMD",
+            "desc": "폐업일자(YYYYMMDD)"
+          },
+          {
+            "name": "TCBIZ_BGNG_YMD",
+            "desc": "휴업시작일자(YYYYMMDD)"
+          },
+          {
+            "name": "TCBIZ_END_YMD",
+            "desc": "휴업종료일자(YYYYMMDD)"
+          },
+          {
+            "name": "LCTN_ZIP",
+            "desc": "소재지우편번호"
+          },
+          {
+            "name": "LAST_MDFCN_PNT",
+            "desc": "최종수정시점(YYYYMMDDHHMMSS)"
+          }
+        ]
+      },
+      {
+        "path": "/history",
+        "method": "get",
+        "label": "건강_산후조리업 데이터 이력조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "응답의 결과 코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "응답의 결과 메세지"
+          },
+          {
+            "name": "dataType",
+            "desc": "응답의 데이터 타입"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "totalCount",
+            "desc": "응답 데이터의 수"
+          },
+          {
+            "name": "OPN_ATMY_GRP_CD",
+            "desc": "개방자치단체코드"
+          },
+          {
+            "name": "MNG_NO",
+            "desc": "관리번호"
+          },
+          {
+            "name": "NRS_CNT",
+            "desc": "간호사수"
+          },
+          {
+            "name": "NRSAD_CNT",
+            "desc": "간호조무사수"
+          },
+          {
+            "name": "BLDG_FLR_CNT",
+            "desc": "건물층수"
+          },
+          {
+            "name": "SCHML_FCLT_AREA",
+            "desc": "급식시설면적"
+          },
+          {
+            "name": "ETC_NOPE",
+            "desc": "기타인원수"
+          },
+          {
+            "name": "DAT_UPDT_SE",
+            "desc": "데이터갱신구분"
+          },
+          {
+            "name": "DAT_UPDT_PNT",
+            "desc": "데이터갱신시점(YYYYMMDDHHMMSS)"
+          },
+          {
+            "name": "ROAD_NM_ZIP",
+            "desc": "도로명우편번호"
+          },
+          {
+            "name": "ROAD_NM_ADDR",
+            "desc": "도로명주소"
+          },
+          {
+            "name": "BRFD_RM_AREA",
+            "desc": "모유수유실면적"
+          },
+          {
+            "name": "BTH_RM_AREA",
+            "desc": "목욕실면적"
+          },
+          {
+            "name": "GBGCO_CNT",
+            "desc": "미화원수"
+          },
+          {
+            "name": "OFC_AREA",
+            "desc": "사무실면적"
+          },
+          {
+            "name": "BPLC_NM",
+            "desc": "사업장명"
+          },
+          {
+            "name": "DTL_SALS_STTS_NM",
+            "desc": "상세영업상태명"
+          },
+          {
+            "name": "DTL_SALS_STTS_CD",
+            "desc": "상세영업상태코드"
+          },
+          {
+            "name": "WASH_RM_AREA",
+            "desc": "세탁실면적"
+          },
+          {
+            "name": "NUTR_CNT",
+            "desc": "영양사수"
+          },
+          {
+            "name": "SALS_STTS_NM",
+            "desc": "영업상태명"
+          },
+          {
+            "name": "SALS_STTS_CD",
+            "desc": "영업상태코드"
+          },
+          {
+            "name": "INFANT_RM_AREA",
+            "desc": "영유아실면적"
+          },
+          {
+            "name": "INFANT_PSCP_CNT",
+            "desc": "영유아정원수"
+          },
+          {
+            "name": "LCPMT_YMD",
+            "desc": "인허가일자(YYYYMMDD)"
+          },
+          {
+            "name": "LCPMT_RTRCN_YMD",
+            "desc": "인허가취소일자(YYYYMMDD)"
+          },
+          {
+            "name": "PRGNW_RM_AREA",
+            "desc": "임산부실면적"
+          },
+          {
+            "name": "PRGNW_PSCP_CNT",
+            "desc": "임산부정원수"
+          },
+          {
+            "name": "TELNO",
+            "desc": "전화번호"
+          },
+          {
+            "name": "CRFCLT_RSTRM_AREA",
+            "desc": "조리원화장실면적"
+          },
+          {
+            "name": "CRD_INFO_X",
+            "desc": "좌표정보(X)"
+          },
+          {
+            "name": "CRD_INFO_Y",
+            "desc": "좌표정보(Y)"
+          },
+          {
+            "name": "LOTNO_ADDR",
+            "desc": "지번주소"
+          },
+          {
+            "name": "GRND_NOFL",
+            "desc": "지상층수"
+          },
+          {
+            "name": "UDGD_NOFL",
+            "desc": "지하층수"
+          },
+          {
+            "name": "COOK_CNT",
+            "desc": "취사부수"
+          },
+          {
+            "name": "CLSBIZ_YMD",
+            "desc": "폐업일자(YYYYMMDD)"
+          },
+          {
+            "name": "TCBIZ_BGNG_YMD",
+            "desc": "휴업시작일자(YYYYMMDD)"
+          },
+          {
+            "name": "TCBIZ_END_YMD",
+            "desc": "휴업종료일자(YYYYMMDD)"
+          },
+          {
+            "name": "LCTN_ZIP",
+            "desc": "소재지우편번호"
+          },
+          {
+            "name": "LAST_MDFCN_PNT",
+            "desc": "최종수정시점(YYYYMMDDHHMMSS)"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15034033",
+    "title": "부산광역시_수유실 보유 시설 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15034033/openapi.do",
+    "operations": [
+      {
+        "path": "https://apis.data.go.kr/6260000/BusanNursingroomInfoService/getNursingroomInfo",
+        "label": "수유실 보유 시설 현황 조회",
+        "params": [
+          {
+            "name": "ServiceKey",
+            "desc": "공공데이터포털에서 받은 인증키",
+            "required": true
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호",
+            "required": true
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수",
+            "required": true
+          },
+          {
+            "name": "sj",
+            "desc": "기관명",
+            "required": false
+          },
+          {
+            "name": "resultType",
+            "desc": "JSON방식으로 호출 시 파라미터 resultType=json 입력",
+            "required": false
+          }
+        ],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메시지"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "totalCount",
+            "desc": "전체 결과 수"
+          },
+          {
+            "name": "sido",
+            "desc": "시도"
+          },
+          {
+            "name": "sigungu",
+            "desc": "시군구"
+          },
+          {
+            "name": "sj",
+            "desc": "기관명"
+          },
+          {
+            "name": "address",
+            "desc": "주소"
+          },
+          {
+            "name": "place",
+            "desc": "위치"
+          },
+          {
+            "name": "tel",
+            "desc": "연락처"
+          },
+          {
+            "name": "target",
+            "desc": "대상"
+          },
+          {
+            "name": "father",
+            "desc": "아빠이용"
+          },
+          {
+            "name": "lng",
+            "desc": "경도"
+          },
+          {
+            "name": "lat",
+            "desc": "위도"
+          },
+          {
+            "name": "confirm_date",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": "AJAX selectApiDetailFunction.do 로 파라미터/응답필드 조회"
+  },
+  {
+    "pk": "15058527",
+    "title": "경기도_시군별출산장려 및 양육비 지원현황",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15058527/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15114191",
+    "title": "부산광역시_출산지원금 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15114191/openapi.do",
+    "operations": [
+      {
+        "path": "/getTblChildBirth",
+        "method": "get",
+        "label": "출산지원금 현황",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "gugun",
+            "desc": "구군명"
+          },
+          {
+            "name": "pay_year",
+            "desc": "지급년도"
+          },
+          {
+            "name": "subsidy_type",
+            "desc": "지원금 유형"
+          },
+          {
+            "name": "division",
+            "desc": "구분"
+          },
+          {
+            "name": "subsidy",
+            "desc": "지원금"
+          },
+          {
+            "name": "department_name",
+            "desc": "관리부서명"
+          },
+          {
+            "name": "basic_date",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "totalCount",
+            "desc": "전체 결과 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15057842",
+    "title": "경기도_장애인출산비용지원 산모기준 집계현황",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15057842/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15059424",
+    "title": "경기도_장애인출산비용지원 태아기준 집계현황",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15059424/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15088928",
+    "title": "부산광역시_산후조리원 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15088928/openapi.do",
+    "operations": [
+      {
+        "path": "https://apis.data.go.kr/6260000/BusanBabyCenterInfoService/getBabyCenterInfo",
+        "label": "부산광역시_산후조리원 현황",
+        "params": [
+          {
+            "name": "ServiceKey",
+            "desc": "공공데이터포털에서 받은 인증키",
+            "required": false
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수",
+            "required": false
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 번호",
+            "required": false
+          },
+          {
+            "name": "resultType",
+            "desc": "JSON방식으로 호출 시 파라미터 resultType=json 입력",
+            "required": false
+          }
+        ],
+        "fields": [
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메시지"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "gugun",
+            "desc": "구군명"
+          },
+          {
+            "name": "center_nm",
+            "desc": "산후조리원명"
+          },
+          {
+            "name": "road_nm",
+            "desc": "도로명주소"
+          },
+          {
+            "name": "tel",
+            "desc": "전화번호"
+          },
+          {
+            "name": "lat",
+            "desc": "위도"
+          },
+          {
+            "name": "lng",
+            "desc": "경도"
+          },
+          {
+            "name": "date_day",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": "AJAX selectApiDetailFunction.do 로 파라미터/응답필드 조회"
+  },
+  {
+    "pk": "15011370",
+    "title": "경기도 산후조리업체 현황",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15011370/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "3080436",
+    "title": "서울특별시 서대문구_산후조리업소정보",
+    "org": "서울특별시 서대문구",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/3080436/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15056859",
+    "title": "경기도_전문병원급산부인과 현황",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15056859/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15156157",
+    "title": "육아정책연구소_한국 영유아 교육·보육 패널 설문 응답 데이터 제공",
+    "org": "육아정책연구소",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15156157/openapi.do",
+    "operations": [
+      {
+        "path": "/getKorKececpSurveyResp",
+        "method": "get",
+        "label": "한국 영유아 교육·보육 패널 데이터",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "aiCrtYn",
+            "desc": "인공지능 생성여부"
+          },
+          {
+            "name": "cbookSn",
+            "desc": "코드북 일련번호"
+          },
+          {
+            "name": "cyclCd",
+            "desc": "설문차수"
+          },
+          {
+            "name": "dtlExpln",
+            "desc": "상세설명"
+          },
+          {
+            "name": "lclsfCd",
+            "desc": "대분류 코드"
+          },
+          {
+            "name": "lclsfNm",
+            "desc": "대분류 이름"
+          },
+          {
+            "name": "mclsfCd",
+            "desc": "중분류 코드"
+          },
+          {
+            "name": "mclsfNm",
+            "desc": "중분류 이름"
+          },
+          {
+            "name": "qitemCd",
+            "desc": "문항 코드"
+          },
+          {
+            "name": "qitemCn",
+            "desc": "문항 내용"
+          },
+          {
+            "name": "qstnCn",
+            "desc": "질문 내용"
+          },
+          {
+            "name": "rspdntCnt",
+            "desc": "응답자 수"
+          },
+          {
+            "name": "rspnsCd",
+            "desc": "응답 코드"
+          },
+          {
+            "name": "rspnsNm",
+            "desc": "응답명"
+          },
+          {
+            "name": "rspvl",
+            "desc": "응답값 평균"
+          },
+          {
+            "name": "sclsfCd",
+            "desc": "소분류 코드"
+          },
+          {
+            "name": "sclsfNm",
+            "desc": "소분류 이름"
+          },
+          {
+            "name": "srvyId",
+            "desc": "설문 아이디"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 번호"
+          },
+          {
+            "name": "totalCount",
+            "desc": "총 건수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15156156",
+    "title": "육아정책연구소_한국 아동 패널 설문 응답 데이터 제공",
+    "org": "육아정책연구소",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15156156/openapi.do",
+    "operations": [
+      {
+        "path": "/getKorKcpsSurveyResp",
+        "method": "get",
+        "label": "한국아동패널 데이터",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "aiCrtYn",
+            "desc": "인공지능생성여부"
+          },
+          {
+            "name": "cbookSn",
+            "desc": "코드북 일련번호"
+          },
+          {
+            "name": "ctgryCd",
+            "desc": "범주 코드"
+          },
+          {
+            "name": "ctgryNm",
+            "desc": "범주 이름"
+          },
+          {
+            "name": "cyclCd",
+            "desc": "설문 차수"
+          },
+          {
+            "name": "dtlExpln",
+            "desc": "설문 상세설명"
+          },
+          {
+            "name": "lclsfCd",
+            "desc": "대분류 코드"
+          },
+          {
+            "name": "lclsfNm",
+            "desc": "대분류 이름"
+          },
+          {
+            "name": "mclsfCd",
+            "desc": "중분류 코드"
+          },
+          {
+            "name": "mclsfNm",
+            "desc": "중분류 이름"
+          },
+          {
+            "name": "qitemCd",
+            "desc": "문항 코드"
+          },
+          {
+            "name": "qitemCn",
+            "desc": "문항 내용"
+          },
+          {
+            "name": "qstnCn",
+            "desc": "질문 내용"
+          },
+          {
+            "name": "rspdntCnt",
+            "desc": "응답자 수"
+          },
+          {
+            "name": "rspnsCd",
+            "desc": "응답 코드"
+          },
+          {
+            "name": "rspnsNm",
+            "desc": "응답명"
+          },
+          {
+            "name": "rspvl",
+            "desc": "응답값 평균"
+          },
+          {
+            "name": "sclsfCd",
+            "desc": "소분류 코드"
+          },
+          {
+            "name": "sclsfNm",
+            "desc": "소분류 이름"
+          },
+          {
+            "name": "srvyId",
+            "desc": "설문 아이디"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 번호"
+          },
+          {
+            "name": "totalCount",
+            "desc": "총 건수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15112471",
+    "title": "대전광역시 서구_어린이집",
+    "org": "대전광역시 서구",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15112471/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15128501",
+    "title": "대전광역시 서구_다함께돌봄센터 운영 현황",
+    "org": "대전광역시 서구",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15128501/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15147948",
+    "title": "부산광역시_부산진구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15147948/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrBj",
+        "method": "get",
+        "label": "부산광역시 부산진구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15147779",
+    "title": "부산광역시_중구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15147779/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrJg",
+        "method": "get",
+        "label": "부산광역시 중구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15148276",
+    "title": "부산광역시_사상구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15148276/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrSs",
+        "method": "get",
+        "label": "부산광역시 사상구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15147936",
+    "title": "부산광역시_서구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15147936/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrSg",
+        "method": "get",
+        "label": "부산광역시 서구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15148262",
+    "title": "부산광역시_강서구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15148262/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrGs",
+        "method": "get",
+        "label": "부산광역시 강서구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15148252",
+    "title": "부산광역시_사하구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15148252/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrSh",
+        "method": "get",
+        "label": "부산광역시 사하구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15148277",
+    "title": "부산광역시_기장군 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15148277/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrGi",
+        "method": "get",
+        "label": "부산광역시 해운대구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15148269",
+    "title": "부산광역시_수영구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15148269/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrSy",
+        "method": "get",
+        "label": "부산광역시 수영구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15147943",
+    "title": "부산광역시_동구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15147943/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrDg",
+        "method": "get",
+        "label": "부산광역시 동구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15147990",
+    "title": "부산광역시_남구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15147990/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrNg",
+        "method": "get",
+        "label": "부산광역시 남구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15147966",
+    "title": "부산광역시_동래구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15147966/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrDn",
+        "method": "get",
+        "label": "부산광역시 동래구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15148259",
+    "title": "부산광역시_금정구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15148259/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrGj",
+        "method": "get",
+        "label": "부산광역시 금정구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15147995",
+    "title": "부산광역시_북구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15147995/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrBg",
+        "method": "get",
+        "label": "부산광역시 북구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15148268",
+    "title": "부산광역시_연제구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15148268/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrYj",
+        "method": "get",
+        "label": "부산광역시 연제구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15147946",
+    "title": "부산광역시_영도구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15147946/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrYd",
+        "method": "get",
+        "label": "부산광역시 영도구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15148121",
+    "title": "부산광역시_해운대구 어린이집 현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15148121/openapi.do",
+    "operations": [
+      {
+        "path": "/getBsChctrHg",
+        "method": "get",
+        "label": "부산광역시 해운대구 어린이집 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15101155",
+    "title": "한국사회보장정보원_전국 어린이집 정보 조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101155/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "3065251",
+    "title": "한국사회보장정보원_어린이집 정보",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/3065251/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101171",
+    "title": "한국사회보장정보원_서울특별시 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101171/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101189",
+    "title": "한국사회보장정보원_광주광역시 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101189/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101187",
+    "title": "한국사회보장정보원_인천광역시 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101187/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101184",
+    "title": "한국사회보장정보원_부산광역시 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101184/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15056682",
+    "title": "경기도_유치원 현황",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15056682/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101190",
+    "title": "한국사회보장정보원_대전광역시 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101190/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101192",
+    "title": "한국사회보장정보원_세종특별자치시 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101192/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101186",
+    "title": "한국사회보장정보원_대구광역시 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101186/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101193",
+    "title": "한국사회보장정보원_경기도 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101193/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101154",
+    "title": "한국사회보장정보원_어린이집별 기본정보  조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101154/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101201",
+    "title": "한국사회보장정보원_제주도 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101201/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101191",
+    "title": "한국사회보장정보원_울산광역시 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101191/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101194",
+    "title": "한국사회보장정보원_강원도 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101194/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101198",
+    "title": "한국사회보장정보원_전라남도 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101198/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101197",
+    "title": "한국사회보장정보원_전라북도 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101197/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101199",
+    "title": "한국사회보장정보원_경상북도 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101199/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101195",
+    "title": "한국사회보장정보원_충청북도 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101195/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101196",
+    "title": "한국사회보장정보원_충청남도 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101196/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101200",
+    "title": "한국사회보장정보원_경상남도 어린이집 정보조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101200/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101203",
+    "title": "한국사회보장정보원_월별 폐지시설 조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101203/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101202",
+    "title": "한국사회보장정보원_월별 신규시설 조회",
+    "org": "한국사회보장정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101202/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15095293",
+    "title": "대전광역시 서구_유치원 위치 현황",
+    "org": "대전광역시 서구",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15095293/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15108174",
+    "title": "대전광역시 서구_취약보육어린이집지원현황",
+    "org": "대전광역시 서구",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15108174/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15088938",
+    "title": "부산광역시_키즈카페현황",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15088938/openapi.do",
+    "operations": [
+      {
+        "path": "https://apis.data.go.kr/6260000/BusanKidsCafeInfoService/getKidsCafeInfo",
+        "label": "부산광역시_키즈카페현황",
+        "params": [
+          {
+            "name": "ServiceKey",
+            "desc": "공공데이터포털에서 받은 인증키",
+            "required": false
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수",
+            "required": false
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 번호",
+            "required": false
+          },
+          {
+            "name": "resultType",
+            "desc": "JSON방식으로 호출 시 파라미터 resultType=json 입력",
+            "required": false
+          }
+        ],
+        "fields": [
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지 수"
+          },
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메시지"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "gugun",
+            "desc": "구군명"
+          },
+          {
+            "name": "cafe_nm",
+            "desc": "키즈카페명"
+          },
+          {
+            "name": "road_nm",
+            "desc": "도로명주소"
+          },
+          {
+            "name": "tel_no",
+            "desc": "전화번호"
+          },
+          {
+            "name": "lat",
+            "desc": "위도"
+          },
+          {
+            "name": "lng",
+            "desc": "경도"
+          },
+          {
+            "name": "data_date",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": "AJAX selectApiDetailFunction.do 로 파라미터/응답필드 조회"
+  },
+  {
+    "pk": "15041681",
+    "title": "국가철도공단_역사별 수유실 현황",
+    "org": "국가철도공단",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15041681/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15128510",
+    "title": "대전광역시 서구_공공형 어린이집 지정현황 정보",
+    "org": "대전광역시 서구",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15128510/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15101888",
+    "title": "행정안전부_생활안전지도유아시설",
+    "org": "행정안전부",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15101888/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15020786",
+    "title": "한국교육학술정보원_유치원 공시정보",
+    "org": "한국교육학술정보원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15020786/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15095211",
+    "title": "서울특별시 종로구_유치원 건물현황",
+    "org": "서울특별시 종로구",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15095211/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15095214",
+    "title": "서울특별시 종로구_유치원 급식운영 현황",
+    "org": "서울특별시 종로구",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15095214/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15095210",
+    "title": "서울특별시 종로구_유치원 수업일수 현황",
+    "org": "서울특별시 종로구",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15095210/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15095194",
+    "title": "서울특별시 종로구_어린이집 정보 (표준 데이터)",
+    "org": "서울특별시 종로구",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15095194/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15095213",
+    "title": "서울특별시 종로구_유치원 보험별 가입 현황",
+    "org": "서울특별시 종로구",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15095213/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15109490",
+    "title": "대전광역시_유치원 정보",
+    "org": "대전광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15109490/openapi.do",
+    "operations": [
+      {
+        "path": "/getkinderschInfo",
+        "method": "get",
+        "label": "대전광역시 유치원 정보",
+        "params": [],
+        "fields": [
+          {
+            "name": "header",
+            "desc": ""
+          },
+          {
+            "name": "body",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15095212",
+    "title": "서울특별시 종로구_유치원 공제회 가입 현황",
+    "org": "서울특별시 종로구",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15095212/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "3045532",
+    "title": "전북특별자치도 전주시_어린이집현황",
+    "org": "전북특별자치도 전주시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/3045532/openapi.do",
+    "operations": [
+      {
+        "path": "",
+        "label": "어린이집 목록",
+        "params": [
+          {
+            "name": "chidSid",
+            "desc": "데이터번호",
+            "required": false
+          },
+          {
+            "name": "chidName",
+            "desc": "어린이집명",
+            "required": false
+          },
+          {
+            "name": "chidGubun",
+            "desc": "민간/가정/사회복지법인/법입.단체",
+            "required": false
+          },
+          {
+            "name": "chidAddr",
+            "desc": "행정동 검색",
+            "required": false
+          },
+          {
+            "name": "startPage",
+            "desc": "시작페이지(기본10)",
+            "required": false
+          },
+          {
+            "name": "pageSize",
+            "desc": "페이지크기(기본1)",
+            "required": false
+          }
+        ],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "pageIndex",
+            "desc": "쿼리페이지 시작점"
+          },
+          {
+            "name": "pageSize",
+            "desc": "페이지 크기"
+          },
+          {
+            "name": "startPage",
+            "desc": "시작 페이지"
+          },
+          {
+            "name": "totalCount",
+            "desc": "전체 결과 수"
+          },
+          {
+            "name": "chidSid",
+            "desc": "데이터번호"
+          },
+          {
+            "name": "chidName",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chidGubun",
+            "desc": "가정,사회복지법인,국공립,법인·단체등"
+          },
+          {
+            "name": "chidIsCar",
+            "desc": "어린이집 통학버스 여부"
+          },
+          {
+            "name": "chidAddr",
+            "desc": "어린이집 주소"
+          },
+          {
+            "name": "posy",
+            "desc": "위도(WGS84)"
+          },
+          {
+            "name": "posx",
+            "desc": "경도(WGS84)"
+          },
+          {
+            "name": "chidTel",
+            "desc": "어린이집 연락처"
+          },
+          {
+            "name": "chidPermitDay",
+            "desc": "어린이집 인가일"
+          },
+          {
+            "name": "chidIsValue",
+            "desc": "평가인증 여부"
+          },
+          {
+            "name": "chidDirector",
+            "desc": "어린이집 시설장"
+          },
+          {
+            "name": "chidCharacter",
+            "desc": "어린이집 특성"
+          },
+          {
+            "name": "chidPermitNo",
+            "desc": "어린이집 인증번호"
+          },
+          {
+            "name": "chidValueDate",
+            "desc": "이런이집 평가인증 일"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": "AJAX selectApiDetailFunction.do 로 파라미터/응답필드 조회"
+  },
+  {
+    "pk": "15097863",
+    "title": "경기도 용인시_어린이집현황 조회 서비스",
+    "org": "경기도 용인시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15097863/openapi.do",
+    "operations": [
+      {
+        "path": "https://apis.data.go.kr/4050000/nrsry/getNrsry",
+        "label": "용인시 어린이집 목록 조회",
+        "params": [
+          {
+            "name": "serviceKey",
+            "desc": "공공데이터포털에서 발급받은 인증키",
+            "required": false
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호",
+            "required": false
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수",
+            "required": false
+          },
+          {
+            "name": "inst_nm",
+            "desc": "어린이집의 기관명",
+            "required": false
+          },
+          {
+            "name": "nrsry_type",
+            "desc": "어린이집의 유형 (민간, 가정, 직장, 법인 , 협동)",
+            "required": false
+          },
+          {
+            "name": "gu",
+            "desc": "어린이집이 위치한 구 (처인구/수지구/기흥구)",
+            "required": false
+          },
+          {
+            "name": "evl_cert",
+            "desc": "어린이집의 평가 인증 여부(Y,N)",
+            "required": false
+          },
+          {
+            "name": "pblc_type_dsgn_yn",
+            "desc": "어린이집의 공공유형 지정 여부(Y,N)",
+            "required": false
+          },
+          {
+            "name": "dsabld_spcl_yn",
+            "desc": "어린이집의 장애인 전문 여부(Y,N)",
+            "required": false
+          },
+          {
+            "name": "night_extn_yn",
+            "desc": "어린이집의 야간연장 운영 여부(Y,N)",
+            "required": false
+          },
+          {
+            "name": "hldy_chldcr_yn",
+            "desc": "어린이집의 휴일보육 운영 여부(Y,N)",
+            "required": false
+          },
+          {
+            "name": "age0_chld_spcl_yn",
+            "desc": "어린이집의 0세아전용여부(Y,N)",
+            "required": false
+          }
+        ],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메시지"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "no",
+            "desc": "번호"
+          },
+          {
+            "name": "dong_nm",
+            "desc": "어린이집이 위치한 행정동명"
+          },
+          {
+            "name": "nrsry_type",
+            "desc": "어린이집의 유형"
+          },
+          {
+            "name": "inst_nm",
+            "desc": "어린이집의 기관명"
+          },
+          {
+            "name": "drctr",
+            "desc": "어린이집의 원장"
+          },
+          {
+            "name": "rprsv_nm",
+            "desc": "어린이집의 대표자명"
+          },
+          {
+            "name": "cpcty",
+            "desc": "어린이집의 정원"
+          },
+          {
+            "name": "prsnt_noppl",
+            "desc": "어린이집의 현원"
+          },
+          {
+            "name": "chldcr_stf",
+            "desc": "어린이집의 보육 교직원 수"
+          },
+          {
+            "name": "evl_cert",
+            "desc": "어린이집의 평가 인증 여부"
+          },
+          {
+            "name": "telno",
+            "desc": "어린이집의 전화번호"
+          },
+          {
+            "name": "fxNo",
+            "desc": "어린이집의 팩스번호"
+          },
+          {
+            "name": "addr",
+            "desc": "어린이집의 주소"
+          },
+          {
+            "name": "pblc_type_dsgn_yn",
+            "desc": "어린이집의 공공유형 지정 여부"
+          },
+          {
+            "name": "dsabld_spcl_yn",
+            "desc": "어린이집의 장애인 전문 여부"
+          },
+          {
+            "name": "night_extn_yn",
+            "desc": "어린이집의 야간연장 운영 여부"
+          },
+          {
+            "name": "hldy_chldcr_yn",
+            "desc": "어린이집의 휴일보육 운영 여부"
+          },
+          {
+            "name": "age0_chld_spcl_yn",
+            "desc": "어린이집의 0세아전용여부"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": "AJAX selectApiDetailFunction.do 로 파라미터/응답필드 조회"
+  },
+  {
+    "pk": "15032866",
+    "title": "경기도 광명시_어린이집및유치원 현황",
+    "org": "경기도 광명시",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15032866/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15096004",
+    "title": "충청남도 계룡시_보육시설(어린이집) 현황 API",
+    "org": "충청남도 계룡시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15096004/openapi.do",
+    "operations": [
+      {
+        "path": "https://apis.data.go.kr/5580000/dycrctSttusService/getdycrctSttus",
+        "label": "계룡시 보육시설(어린이집) 현황 데이터 조회",
+        "params": [
+          {
+            "name": "serviceKey",
+            "desc": "공공데이터포털에서 발급받은 인증키",
+            "required": false
+          },
+          {
+            "name": "currentPage",
+            "desc": "페이지 번호",
+            "required": false
+          },
+          {
+            "name": "perPage",
+            "desc": "한 페이지 결과 수",
+            "required": false
+          },
+          {
+            "name": "ATPT",
+            "desc": "시도",
+            "required": false
+          },
+          {
+            "name": "SIGNGU",
+            "desc": "시군구",
+            "required": false
+          },
+          {
+            "name": "ADSTRD",
+            "desc": "행정동",
+            "required": false
+          },
+          {
+            "name": "GNRL",
+            "desc": "일반",
+            "required": false
+          }
+        ],
+        "fields": [
+          {
+            "name": "perPage",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "totalRows",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "currentPage",
+            "desc": "페이지 번호"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "ATPT",
+            "desc": "시도"
+          },
+          {
+            "name": "SIGNGU",
+            "desc": "시군구"
+          },
+          {
+            "name": "ADSTRD",
+            "desc": "행정동"
+          },
+          {
+            "name": "DYCRCT_TY",
+            "desc": "보육시설 유형"
+          },
+          {
+            "name": "CHILD_HOUSE_NM",
+            "desc": "어린이 집 명"
+          },
+          {
+            "name": "GNRL",
+            "desc": "일반"
+          },
+          {
+            "name": "BABY_ECSHG",
+            "desc": "영아 전담"
+          },
+          {
+            "name": "TROBL_CHIL_SPCLTY",
+            "desc": "장애 아동 전문"
+          },
+          {
+            "name": "TROBL_CHIL_UNITY",
+            "desc": "장애 아동 통합"
+          },
+          {
+            "name": "NCRDT_EDC_ECSHG",
+            "desc": "비정규 교육 전담"
+          },
+          {
+            "name": "NCRDT_EDC_UNITY",
+            "desc": "비정규 교육 통합"
+          },
+          {
+            "name": "ETC_ET",
+            "desc": "기타 연장"
+          },
+          {
+            "name": "RESTDE_NRTR",
+            "desc": "휴일 보육"
+          },
+          {
+            "name": "FLTMSYS",
+            "desc": "전일제"
+          },
+          {
+            "name": "TIME_NRTR",
+            "desc": "시간 보육"
+          },
+          {
+            "name": "PSNCPA",
+            "desc": "정원"
+          },
+          {
+            "name": "TELNO",
+            "desc": "전화번호"
+          },
+          {
+            "name": "ADRES",
+            "desc": "주소"
+          },
+          {
+            "name": "ZIP",
+            "desc": "우편번호"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": "AJAX selectApiDetailFunction.do 로 파라미터/응답필드 조회"
+  },
+  {
+    "pk": "15057650",
+    "title": "경기도_장애인어린이집현황(전문,통합)",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15057650/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15128513",
+    "title": "대전광역시 서구_0세아전용어린이집지정현황 정보",
+    "org": "대전광역시 서구",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15128513/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15070773",
+    "title": "부산광역시 해운대구_교육/보육기관 정보 조회 서비스",
+    "org": "부산광역시 해운대구",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15070773/openapi.do",
+    "operations": [
+      {
+        "path": "https://apis.data.go.kr/3330000/HeaundaeEduNursInstInfoService/getEduNursInsttList",
+        "label": "교육/보육기관 목록조회",
+        "params": [
+          {
+            "name": "ServiceKey",
+            "desc": "공공데이터포털에서 받은 인증키",
+            "required": false
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호",
+            "required": false
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수",
+            "required": false
+          },
+          {
+            "name": "eduInsttName",
+            "desc": "시설명",
+            "required": false
+          },
+          {
+            "name": "resultType",
+            "desc": "JSON방식으로 호출 시 파라미터 resultType=json 입력 (default : xml)",
+            "required": false
+          }
+        ],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메시지"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "totalCount",
+            "desc": "전체 결과 수"
+          },
+          {
+            "name": "eduInsttName",
+            "desc": "시설명"
+          },
+          {
+            "name": "address",
+            "desc": "위치"
+          },
+          {
+            "name": "tel",
+            "desc": "전화번호"
+          },
+          {
+            "name": "dong",
+            "desc": "동명"
+          },
+          {
+            "name": "persons",
+            "desc": "수용인원"
+          },
+          {
+            "name": "lat",
+            "desc": "위도"
+          },
+          {
+            "name": "lng",
+            "desc": "경도"
+          },
+          {
+            "name": "clsName",
+            "desc": "분류명"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": "AJAX selectApiDetailFunction.do 로 파라미터/응답필드 조회"
+  },
+  {
+    "pk": "15096888",
+    "title": "식품의약품안전처_어린이 급식센터 지원현황",
+    "org": "식품의약품안전처",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15096888/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15149543",
+    "title": "행정안전부_생활안전지도 어린이놀이시설 위치정보",
+    "org": "행정안전부",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15149543/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15057882",
+    "title": "경기도_아이돌봄서비스 제공기관 현황",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15057882/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15078130",
+    "title": "한국건강가정진흥원_아이돌봄서비스제공기관 정보 서비스",
+    "org": "한국건강가정진흥원",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15078130/openapi.do",
+    "operations": [
+      {
+        "path": "https://apis.data.go.kr/1383000/idis/serviceInstitutionService/getServiceInstitutionList",
+        "label": "아이돌봄 서비스제공기관 조회",
+        "params": [
+          {
+            "name": "ServiceKey",
+            "desc": "공공데이터포털에서 받은 인증키",
+            "required": false
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호",
+            "required": false
+          },
+          {
+            "name": "type",
+            "desc": "json, xml 중에서 선택(대소문자 구분)",
+            "required": false
+          },
+          {
+            "name": "numOfRows",
+            "desc": "데이터 요청에서 한번에 가져올 목록의 수",
+            "required": false
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명",
+            "required": false
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명",
+            "required": false
+          },
+          {
+            "name": "childCareInstNo",
+            "desc": "아이돌봄기관번호",
+            "required": false
+          }
+        ],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "서비스 응답코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "서비스 응답메시지"
+          },
+          {
+            "name": "resultType",
+            "desc": "서비스 응답타입(json, xml)"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "데이터 요청에서 요청한 한번에 가져올 목록의 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "목록에서 요청한 페이지 번호"
+          },
+          {
+            "name": "totalCount",
+            "desc": "요청한 조건에 해당하는 전체 데이터 건수"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "childCareInstNo",
+            "desc": "아이돌봄기관번호"
+          },
+          {
+            "name": "childCareInstNm",
+            "desc": "아이돌봄기관명"
+          },
+          {
+            "name": "upChildCareInstNo",
+            "desc": "상위아이돌봄기관번호"
+          },
+          {
+            "name": "upChildCareInstNm",
+            "desc": "상위아이돌봄기관명"
+          },
+          {
+            "name": "srvcPvsnAreaNm",
+            "desc": "서비스제공지역명"
+          },
+          {
+            "name": "rprsTelno",
+            "desc": "대표전화번호"
+          },
+          {
+            "name": "drtlnTelno",
+            "desc": "직통전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "addr",
+            "desc": "주소"
+          },
+          {
+            "name": "lot",
+            "desc": "좌표경도값"
+          },
+          {
+            "name": "lat",
+            "desc": "좌표위치값"
+          },
+          {
+            "name": "dataCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": "AJAX selectApiDetailFunction.do 로 파라미터/응답필드 조회"
+  },
+  {
+    "pk": "15078132",
+    "title": "한국건강가정진흥원_아이돌봄광역거점기관 정보 서비스",
+    "org": "한국건강가정진흥원",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15078132/openapi.do",
+    "operations": [
+      {
+        "path": "https://apis.data.go.kr/1383000/idis/areaBaseInstitutionService/getAreaBaseInstitutionList",
+        "label": "아이돌봄 광역거점기관 조회",
+        "params": [
+          {
+            "name": "ServiceKey",
+            "desc": "공공데이터포털에서 받은 인증키",
+            "required": false
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호",
+            "required": false
+          },
+          {
+            "name": "type",
+            "desc": "json, xml 중에서 선택(대소문자 구분)",
+            "required": false
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수",
+            "required": false
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명",
+            "required": false
+          },
+          {
+            "name": "childCareInstNo",
+            "desc": "아이돌봄기관번호",
+            "required": false
+          }
+        ],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "서비스 응답코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "서비스 응답메시지"
+          },
+          {
+            "name": "resultType",
+            "desc": "서비스 응답타입(json, xml)"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "데이터 요청에서 요청한 한번에 가져올 목록의 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "목록에서 요청한 페이지 번호"
+          },
+          {
+            "name": "totalCount",
+            "desc": "요청한 조건에 해당하는 전체 데이터 건수"
+          },
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "childCareInstNo",
+            "desc": "아이돌봄기관번호"
+          },
+          {
+            "name": "childCareInstNm",
+            "desc": "아이돌봄기관명"
+          },
+          {
+            "name": "rprsTelno",
+            "desc": "대표전화번호"
+          },
+          {
+            "name": "drtlnTelno",
+            "desc": "직통전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "addr",
+            "desc": "주소"
+          },
+          {
+            "name": "lot",
+            "desc": "좌표경도값"
+          },
+          {
+            "name": "lat",
+            "desc": "좌표위치값"
+          },
+          {
+            "name": "dataCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": "AJAX selectApiDetailFunction.do 로 파라미터/응답필드 조회"
+  },
+  {
+    "pk": "15078134",
+    "title": "한국건강가정진흥원_아이돌봄서비스이용요금표 정보 서비스",
+    "org": "한국건강가정진흥원",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15078134/openapi.do",
+    "operations": [
+      {
+        "path": "https://apis.data.go.kr/1383000/idis/usageFeeService/getUsageFeeList",
+        "label": "아이돌봄서비스이용요금표 조회",
+        "params": [
+          {
+            "name": "ServiceKey",
+            "desc": "공공데이터포털에서 받은 인증키",
+            "required": false
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호",
+            "required": false
+          },
+          {
+            "name": "type",
+            "desc": "json, xml 중에서 선택(대소문자 구분)",
+            "required": false
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수",
+            "required": false
+          },
+          {
+            "name": "crtrYmdFrom",
+            "desc": "검색할 기준일자의 시작",
+            "required": false
+          },
+          {
+            "name": "crtrYmdTo",
+            "desc": "검색할 기준일자의 끝",
+            "required": false
+          }
+        ],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "서비스 응답코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "서비스 응답메시지"
+          },
+          {
+            "name": "resultType",
+            "desc": "서비스 응답타입(json, xml)"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "데이터 요청에서 요청한 한번에 가져올 목록의 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "목록에서 요청한 페이지 번호"
+          },
+          {
+            "name": "totalCount",
+            "desc": "요청한 조건에 해당하는 전체 데이터 건수"
+          },
+          {
+            "name": "crtrYmd",
+            "desc": "기준일자"
+          },
+          {
+            "name": "iftsnsIlnsChildYn",
+            "desc": "전염성질병아동여부(Y, N)"
+          },
+          {
+            "name": "childCareDvsnNm",
+            "desc": "돌봄구분명(종일제, 시간제)"
+          },
+          {
+            "name": "jgmtGrdeNm",
+            "desc": "판정등급명"
+          },
+          {
+            "name": "srvcDvsfctnNm",
+            "desc": "서비스다양화명(종합형, 일반형)"
+          },
+          {
+            "name": "addtnFeeYn",
+            "desc": "추가요금여부"
+          },
+          {
+            "name": "childCnt",
+            "desc": "아동수"
+          },
+          {
+            "name": "oselfBrdnAmt",
+            "desc": "본인부담금액"
+          },
+          {
+            "name": "gvmtSprtAmt",
+            "desc": "정부지원금액"
+          },
+          {
+            "name": "e30minUseAmt",
+            "desc": "30분당이용금액"
+          },
+          {
+            "name": "dataCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": "AJAX selectApiDetailFunction.do 로 파라미터/응답필드 조회"
+  },
+  {
+    "pk": "15078149",
+    "title": "한국건강가정진흥원_아이돌봄정부지원 자격여부 입증서류 및 확인방법 정보 서비스",
+    "org": "한국건강가정진흥원",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15078149/openapi.do",
+    "operations": [
+      {
+        "path": "https://apis.data.go.kr/1383000/idis/qualificationDocumentsService/getQualificationDocumentsList",
+        "label": "아이돌봄정부지원 자격여부 입증서류 및 확인방법 조회",
+        "params": [
+          {
+            "name": "ServiceKey",
+            "desc": "공공데이터포털에서 받은 인증키",
+            "required": false
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호",
+            "required": false
+          },
+          {
+            "name": "type",
+            "desc": "json, xml 중에서 선택(대소문자 구분)",
+            "required": false
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수",
+            "required": false
+          },
+          {
+            "name": "crtrYrFrom",
+            "desc": "검색할 기준연도의 시작",
+            "required": false
+          },
+          {
+            "name": "crtrYrTo",
+            "desc": "검색할 기준연도의 끝",
+            "required": false
+          }
+        ],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "서비스 응답코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "서비스 응답메시지"
+          },
+          {
+            "name": "resultType",
+            "desc": "서비스 응답타입(json, xml)"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "데이터 요청에서 요청한 한번에 가져올 목록의 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "목록에서 요청한 페이지 번호"
+          },
+          {
+            "name": "totalCount",
+            "desc": "요청한 조건에 해당하는 전체 데이터 건수"
+          },
+          {
+            "name": "crtrYr",
+            "desc": "기준연도"
+          },
+          {
+            "name": "gvmtSprtDvsnNm",
+            "desc": "정부지원구분명"
+          },
+          {
+            "name": "sprtTrgtNm",
+            "desc": "지원대상명"
+          },
+          {
+            "name": "flfllDcmntCn",
+            "desc": "구비서류내용"
+          },
+          {
+            "name": "idntyAndIssuMeanCn",
+            "desc": "확인및발급방법내용"
+          },
+          {
+            "name": "dataCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": "AJAX selectApiDetailFunction.do 로 파라미터/응답필드 조회"
+  },
+  {
+    "pk": "15138748",
+    "title": "제주특별자치도 서귀포시_어린이건강놀이터",
+    "org": "제주특별자치도 서귀포시",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15138748/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15157814",
+    "title": "경상북도 영천시_지역아동센터 현황",
+    "org": "경상북도 영천시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15157814/openapi.do",
+    "operations": [
+      {
+        "path": "/getResult",
+        "method": "get",
+        "label": "지역아동센터 현황 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "no",
+            "desc": "연번"
+          },
+          {
+            "name": "fcltyNm",
+            "desc": "시설명"
+          },
+          {
+            "name": "addr",
+            "desc": "소재지"
+          },
+          {
+            "name": "fullPrsnCnt",
+            "desc": "정원"
+          },
+          {
+            "name": "currPrsnCnt",
+            "desc": "현원"
+          },
+          {
+            "name": "tel",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fax",
+            "desc": "팩스"
+          },
+          {
+            "name": "time",
+            "desc": "운영시간"
+          },
+          {
+            "name": "type",
+            "desc": "운영형태"
+          },
+          {
+            "name": "mealYn",
+            "desc": "급식"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "totalCount",
+            "desc": "전체 결과 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15058336",
+    "title": "경기도_키즈카페현황",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15058336/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15057362",
+    "title": "경기도_휴게음식점(키즈카페) 현황",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15057362/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15034023",
+    "title": "부산광역시_구군 보건소 예방접종 정보",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15034023/openapi.do",
+    "operations": [
+      {
+        "path": "https://apis.data.go.kr/6260000/BusanTblVcnStusService/getTblVcnStusInfo",
+        "label": "보건소 예방접종 정보 조회",
+        "params": [
+          {
+            "name": "ServiceKey",
+            "desc": "공공데이터포털에서 받은 인증키",
+            "required": true
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호",
+            "required": true
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수",
+            "required": true
+          },
+          {
+            "name": "resultType",
+            "desc": "JSON방식으로 호출 시 파라미터 resultType=json 입력",
+            "required": false
+          }
+        ],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메시지"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "totalCount",
+            "desc": "전체 결과 수"
+          },
+          {
+            "name": "kind",
+            "desc": "예방접종 종류"
+          },
+          {
+            "name": "vaccinTarget",
+            "desc": "예방 접종의 접종 대상자"
+          },
+          {
+            "name": "vaccinTargetAdd",
+            "desc": "추가 예방 접종 대상자"
+          },
+          {
+            "name": "cost",
+            "desc": "예방접종을 하는데 필요한 비용"
+          },
+          {
+            "name": "reference",
+            "desc": "예방접종에 참고해야하는 사항(안내사항)"
+          },
+          {
+            "name": "implmInst",
+            "desc": "보건소명"
+          },
+          {
+            "name": "workTime",
+            "desc": "예방접종을 시행하는 기관의 운영시간"
+          },
+          {
+            "name": "tel",
+            "desc": "예방접종을 시행하는 기관의 전화번호"
+          },
+          {
+            "name": "gugun",
+            "desc": "데이터제공 구군명"
+          },
+          {
+            "name": "dataDay",
+            "desc": "데이터 작성 기준일자"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": "AJAX selectApiDetailFunction.do 로 파라미터/응답필드 조회"
+  },
+  {
+    "pk": "15057195",
+    "title": "경기도_어린이 국가 예방접종 지정의료기관 현황",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15057195/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15084303",
+    "title": "질병관리청_어린이 국가예방접종지원사업 위탁의료기관 현황 정보",
+    "org": "질병관리청",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15084303/openapi.do",
+    "operations": [
+      {
+        "path": "/getOrgList3",
+        "method": "get",
+        "label": "어린이 국가예방접종 위탁의료기관 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메시지"
+          },
+          {
+            "name": "dataTime",
+            "desc": "자료 응답 시간"
+          },
+          {
+            "name": "pageNo",
+            "desc": "현재 페이지"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "maxPage",
+            "desc": "최대 페이지"
+          },
+          {
+            "name": "orgnm",
+            "desc": "병의원명"
+          },
+          {
+            "name": "orgTlno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "orgAddr",
+            "desc": "주소"
+          },
+          {
+            "name": "expnYmd",
+            "desc": "참여일"
+          },
+          {
+            "name": "orgcd",
+            "desc": "기관코드"
+          },
+          {
+            "name": "vcnNm",
+            "desc": "백신명"
+          },
+          {
+            "name": "vcncd",
+            "desc": "백신코드"
+          }
+        ]
+      },
+      {
+        "path": "/getCov19OrgList2",
+        "method": "get",
+        "label": "코로나19 위탁의료기관 참여백신 정보",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "dataTime",
+            "desc": "응답시간"
+          },
+          {
+            "name": "pageNo",
+            "desc": "현재 페이지"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          },
+          {
+            "name": "maxPage",
+            "desc": "최대 페이지"
+          },
+          {
+            "name": "orgcd",
+            "desc": "기관코드"
+          },
+          {
+            "name": "orgnm",
+            "desc": "기관명"
+          },
+          {
+            "name": "orgTlno",
+            "desc": "기관전화번호"
+          },
+          {
+            "name": "orgZipaddr",
+            "desc": "기관주소"
+          },
+          {
+            "name": "slrYmd",
+            "desc": "조회일자"
+          },
+          {
+            "name": "dywk",
+            "desc": "조회일자 요일"
+          },
+          {
+            "name": "hldyYn",
+            "desc": "조회일자 휴무일"
+          },
+          {
+            "name": "lunchSttTm",
+            "desc": "점심시작시간"
+          },
+          {
+            "name": "lunchEndTm",
+            "desc": "점심종료시간"
+          },
+          {
+            "name": "monSttTm",
+            "desc": "월요일 접종시작시간"
+          },
+          {
+            "name": "monEndTm",
+            "desc": "월요일 접종종료시간"
+          },
+          {
+            "name": "tueSttTm",
+            "desc": "화요일 접종시작시간"
+          },
+          {
+            "name": "tueEndTm",
+            "desc": "화요일 접종종료시간"
+          },
+          {
+            "name": "wedSttTm",
+            "desc": "수요일 접종시작시간"
+          },
+          {
+            "name": "wedEndTm",
+            "desc": "수요일 접종종료시간"
+          },
+          {
+            "name": "thuSttTm",
+            "desc": "목요일 접종시작시간"
+          },
+          {
+            "name": "thuEndTm",
+            "desc": "목요일 접종종료시간"
+          },
+          {
+            "name": "friSttTm",
+            "desc": "금요일 접종시작시간"
+          },
+          {
+            "name": "friEndTm",
+            "desc": "금요일 접종종료시간"
+          },
+          {
+            "name": "satSttTm",
+            "desc": "토요일 접종시작시간"
+          },
+          {
+            "name": "satEndTm",
+            "desc": "토요일 접종종료시간"
+          },
+          {
+            "name": "sunSttTm",
+            "desc": "일요일 접종시작시간"
+          },
+          {
+            "name": "sunEndTm",
+            "desc": "일요일 접종종료시간"
+          },
+          {
+            "name": "azYn",
+            "desc": "아스트라제네카 백신 참여여부"
+          },
+          {
+            "name": "jsYn",
+            "desc": "얀센 백신 참여여부"
+          },
+          {
+            "name": "pzYn",
+            "desc": "화이자 백신 참여여부"
+          },
+          {
+            "name": "mnYn",
+            "desc": "모더나 백신 참여여부"
+          },
+          {
+            "name": "nvYn",
+            "desc": "노바백스 백신 참여여부"
+          },
+          {
+            "name": "scYn",
+            "desc": "스카이코비원 백신 참여여부"
+          },
+          {
+            "name": "pzKidYn",
+            "desc": "화이자(소아용) 백신 참여여부"
+          },
+          {
+            "name": "mnBa1Yn",
+            "desc": "모더나BA.1 백신 참여여부"
+          },
+          {
+            "name": "mnBa45Yn",
+            "desc": "모더나BA.4/5 백신 참여여부"
+          },
+          {
+            "name": "pzBa1Yn",
+            "desc": "화이자BA.1 백신 참여여부"
+          },
+          {
+            "name": "pzBa45Yn",
+            "desc": "화이자BA.4/5 백신 참여여부"
+          },
+          {
+            "name": "pzBabyYn",
+            "desc": "화이자(영유아용)백신 참여여부"
+          },
+          {
+            "name": "pzKidBa45Yn",
+            "desc": "화이자BA.4/5(소아용) 백신 참여여부"
+          },
+          {
+            "name": "pzXbbYn",
+            "desc": "화이자XBB.1.5 백신 참여여부"
+          },
+          {
+            "name": "mnXbbYn",
+            "desc": "모더나XBB.1.5 백신 참여여부"
+          },
+          {
+            "name": "nvXbbYn",
+            "desc": "노바백스XBB.1.5 백신 참여여부"
+          },
+          {
+            "name": "pzBabyXbbYn",
+            "desc": "화이자XBB.1.5(영유아용) 백신 참여여부"
+          }
+        ]
+      },
+      {
+        "path": "/getCondBrtcCd3",
+        "method": "get",
+        "label": "의료기관 조회 기준 목록(시도) 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "cdNm",
+            "desc": "시도 명칭"
+          },
+          {
+            "name": "cd",
+            "desc": "시도 코드"
+          },
+          {
+            "name": "pageNo",
+            "desc": "현재 페이지"
+          },
+          {
+            "name": "dataTime",
+            "desc": "자료 응답 시간"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          }
+        ]
+      },
+      {
+        "path": "/getCondSggCd3",
+        "method": "get",
+        "label": "의료기관 조회 기준 목록(시군구) 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "cdNm",
+            "desc": "시군구 명칭"
+          },
+          {
+            "name": "cd",
+            "desc": "시군구 코드"
+          },
+          {
+            "name": "pageNo",
+            "desc": "현재 페이지"
+          },
+          {
+            "name": "dataTime",
+            "desc": "자료 응답 시간"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지당 표출 데이터 수"
+          },
+          {
+            "name": "totalCount",
+            "desc": "데이터 총 개수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15116894",
+    "title": "산업통상부 국가기술표준원_제품안전인증 및 리콜 정보",
+    "org": "산업통상부 국가기술표준원",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15116894/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15124519",
+    "title": "행정안전부_전국어린이놀이시설정보서비스",
+    "org": "행정안전부",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15124519/openapi.do",
+    "operations": [
+      {
+        "path": "/getPfctInfo3",
+        "method": "get",
+        "label": "전국어린이놀이시설정보서비스",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "instlYmd",
+            "desc": "설치일자"
+          },
+          {
+            "name": "clsgYmd",
+            "desc": "폐쇄일자"
+          },
+          {
+            "name": "acptnYmd",
+            "desc": "인수일자"
+          },
+          {
+            "name": "etcSufa",
+            "desc": "부대시설(기타)"
+          },
+          {
+            "name": "exfcYn",
+            "desc": "우수시설여부"
+          },
+          {
+            "name": "fcar",
+            "desc": "시설면적"
+          },
+          {
+            "name": "instlPlaceCd",
+            "desc": "설치장소코드"
+          },
+          {
+            "name": "instlPlaceCdNm",
+            "desc": "설치장소코드명"
+          },
+          {
+            "name": "dutyCd",
+            "desc": "의무시설여부코드"
+          },
+          {
+            "name": "dutyCdNm",
+            "desc": "의무시설여부코드명"
+          },
+          {
+            "name": "prvtPblcYnCd",
+            "desc": "민간공공구분코드"
+          },
+          {
+            "name": "prvtPblcYnCdNm",
+            "desc": "민간공공구분코드명"
+          },
+          {
+            "name": "operYnCd",
+            "desc": "시설운영구분코드"
+          },
+          {
+            "name": "operYnCdNm",
+            "desc": "시설운영구분코드명"
+          },
+          {
+            "name": "idrodrCd",
+            "desc": "실내외구분코드"
+          },
+          {
+            "name": "idrodrCdNm",
+            "desc": "실내외구분코드명"
+          },
+          {
+            "name": "exfcDsgnYmd",
+            "desc": "우수시설지정일"
+          },
+          {
+            "name": "rgnCd",
+            "desc": "지역분류코드"
+          },
+          {
+            "name": "rgnCdNm",
+            "desc": "지역분류코드명"
+          },
+          {
+            "name": "lotCrtsVl",
+            "desc": "위도"
+          },
+          {
+            "name": "latCrtsVl",
+            "desc": "경도"
+          },
+          {
+            "name": "lotnoDaddr",
+            "desc": "지번상세주소"
+          },
+          {
+            "name": "ronaAddr",
+            "desc": "도로명주소"
+          },
+          {
+            "name": "ronaDaddr",
+            "desc": "도로명상세주소"
+          },
+          {
+            "name": "pfctNm",
+            "desc": "놀이시설명"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "lotnoAddr",
+            "desc": "지번주소"
+          },
+          {
+            "name": "pfctSn",
+            "desc": "놀이시설일련번호"
+          },
+          {
+            "name": "wowaStylRideCd",
+            "desc": "물놀이유형놀이기구 포함여부 코드"
+          },
+          {
+            "name": "wowaStylRideCdNm",
+            "desc": "물놀이유형놀이기구 포함여부 코드명"
+          },
+          {
+            "name": "pageIndex",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "recordCountPerPage",
+            "desc": "한페이지결과수"
+          },
+          {
+            "name": "totalCnt",
+            "desc": "전체결과수"
+          },
+          {
+            "name": "totalPageCnt",
+            "desc": "전체페이지수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15058545",
+    "title": "경기도_광명시_어린이놀이시설_의무 현황",
+    "org": "경기도 광명시",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15058545/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15056749",
+    "title": "경기도_우수어린이놀이시설현황",
+    "org": "경기도",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15056749/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15059124",
+    "title": "경기도 광명시_어린이놀이시설현황",
+    "org": "경기도 광명시",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15059124/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15124524",
+    "title": "행정안전부_전국어린이놀이시설안전검사정보서비스",
+    "org": "행정안전부",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15124524/openapi.do",
+    "operations": [
+      {
+        "path": "/getSftyInsp4",
+        "method": "get",
+        "label": "전국어린이놀이시설안전검사정보서비스",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "instlInspSubNo",
+            "desc": "설치검사번호(변경)"
+          },
+          {
+            "name": "pfctSn",
+            "desc": "놀이시설일련번호"
+          },
+          {
+            "name": "pfctNm",
+            "desc": "놀이시설명"
+          },
+          {
+            "name": "rgnCd",
+            "desc": "지역코드"
+          },
+          {
+            "name": "rgnNm",
+            "desc": "지역명"
+          },
+          {
+            "name": "instlPlaceCd",
+            "desc": "설치장소코드"
+          },
+          {
+            "name": "instlPlaceCdNm",
+            "desc": "설치장소코드명"
+          },
+          {
+            "name": "inspKndCd",
+            "desc": "검사종류코드"
+          },
+          {
+            "name": "inspKndCdNm",
+            "desc": "검사종류코드명"
+          },
+          {
+            "name": "instlYmd",
+            "desc": "설치일자"
+          },
+          {
+            "name": "vldYmd",
+            "desc": "유효기간"
+          },
+          {
+            "name": "passYn",
+            "desc": "합부판정(YN)"
+          },
+          {
+            "name": "inspYmd",
+            "desc": "검사일자"
+          },
+          {
+            "name": "inspInstSeCd",
+            "desc": "검사기관구분코드"
+          },
+          {
+            "name": "inspInstSeCdNm",
+            "desc": "검사기관구분코드명"
+          },
+          {
+            "name": "jgmtYmd",
+            "desc": "판정일자"
+          },
+          {
+            "name": "inspNo",
+            "desc": "검사번호"
+          },
+          {
+            "name": "inspPic",
+            "desc": "검사담당자"
+          },
+          {
+            "name": "rnspYn",
+            "desc": "재검사여부"
+          },
+          {
+            "name": "instlInspNo",
+            "desc": "설치검사번호"
+          },
+          {
+            "name": "pageIndex",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "recordCountPerPage",
+            "desc": "한페이지결과수"
+          },
+          {
+            "name": "totalCnt",
+            "desc": "전체결과수"
+          },
+          {
+            "name": "totalPageCnt",
+            "desc": "전체페이지수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15124521",
+    "title": "행정안전부_전국어린이놀이시설기구정보서비스",
+    "org": "행정안전부",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15124521/openapi.do",
+    "operations": [
+      {
+        "path": "/getRide4",
+        "method": "get",
+        "label": "전국어린이놀이시설기구정보서비스",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "rideSn",
+            "desc": "놀이기구일련번호"
+          },
+          {
+            "name": "pfctNm",
+            "desc": "놀이시설명"
+          },
+          {
+            "name": "rideNm",
+            "desc": "기구명"
+          },
+          {
+            "name": "rideNo",
+            "desc": "관리번호"
+          },
+          {
+            "name": "rideLctn",
+            "desc": "설치위치(설치장소)"
+          },
+          {
+            "name": "rideInstlYmd",
+            "desc": "설치일자"
+          },
+          {
+            "name": "instlFrmNm",
+            "desc": "설치업체"
+          },
+          {
+            "name": "inlr",
+            "desc": "설치자"
+          },
+          {
+            "name": "dscdYmd",
+            "desc": "폐기일자"
+          },
+          {
+            "name": "dmltnRsn",
+            "desc": "폐기사유"
+          },
+          {
+            "name": "comaNm",
+            "desc": "생산국"
+          },
+          {
+            "name": "mnftrFrmNm",
+            "desc": "제조업체"
+          },
+          {
+            "name": "prdctnYmd",
+            "desc": "생산일자"
+          },
+          {
+            "name": "certNo",
+            "desc": "인증번호"
+          },
+          {
+            "name": "rideStylCd",
+            "desc": "놀이기구유형코드"
+          },
+          {
+            "name": "rideStylCdNm",
+            "desc": "놀이기구유형코드명"
+          },
+          {
+            "name": "pfctSn",
+            "desc": "놀이시설일련번호"
+          },
+          {
+            "name": "instlCd",
+            "desc": "설치검사번호"
+          },
+          {
+            "name": "rgnCd",
+            "desc": "지역분류코드"
+          },
+          {
+            "name": "rgnNm",
+            "desc": "지역분류코드명"
+          },
+          {
+            "name": "rideStylSbCd",
+            "desc": "놀이기구유형부코드"
+          },
+          {
+            "name": "rideStylSbCdNm",
+            "desc": "놀이기구유형부코드명"
+          },
+          {
+            "name": "pageIndex",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "recordCountPerPage",
+            "desc": "한페이지결과수"
+          },
+          {
+            "name": "totalCnt",
+            "desc": "전체결과수"
+          },
+          {
+            "name": "totalPageCnt",
+            "desc": "전체페이지수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15124527",
+    "title": "행정안전부_전국어린이놀이시설우수시설정보서비스",
+    "org": "행정안전부",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15124527/openapi.do",
+    "operations": [
+      {
+        "path": "/getExfc5",
+        "method": "get",
+        "label": "우수시설정보조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "exfcSn",
+            "desc": "우수시설일련번호"
+          },
+          {
+            "name": "dsgnYmd",
+            "desc": "우수시설지정일"
+          },
+          {
+            "name": "pfctSn",
+            "desc": "놀이시설일련번호"
+          },
+          {
+            "name": "rgnCd",
+            "desc": "지역분류코드"
+          },
+          {
+            "name": "fctyCd",
+            "desc": "시설코드"
+          },
+          {
+            "name": "pfctNm",
+            "desc": "놀이시설명"
+          },
+          {
+            "name": "rgnNm",
+            "desc": "지역명"
+          },
+          {
+            "name": "rmk",
+            "desc": "비고"
+          },
+          {
+            "name": "instSn",
+            "desc": "조직ID"
+          },
+          {
+            "name": "instNm",
+            "desc": "조직명"
+          },
+          {
+            "name": "latCrtsVl",
+            "desc": "위도"
+          },
+          {
+            "name": "lotCrtsVl",
+            "desc": "경도"
+          },
+          {
+            "name": "pageIndex",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "recordCountPerPage",
+            "desc": "한페이지결과수"
+          },
+          {
+            "name": "totalCnt",
+            "desc": "전체결과수"
+          },
+          {
+            "name": "totalPageCnt",
+            "desc": "전체페이지수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": true,
+    "note": ""
+  },
+  {
+    "pk": "15124525",
+    "title": "행정안전부_전국어린이놀이시설보험가입정보서비스",
+    "org": "행정안전부",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15124525/openapi.do",
+    "operations": [
+      {
+        "path": "/getInsrncMng4",
+        "method": "get",
+        "label": "보험가입정보조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "insrncCn",
+            "desc": "보험내용"
+          },
+          {
+            "name": "insrncMngSn",
+            "desc": "보험가입일련번호"
+          },
+          {
+            "name": "pfctSn",
+            "desc": "놀이시설일련번호"
+          },
+          {
+            "name": "pfctNm",
+            "desc": "놀이시설명"
+          },
+          {
+            "name": "instlPlaceCd",
+            "desc": "설치장소코드"
+          },
+          {
+            "name": "instlPlaceCdNm",
+            "desc": "설치장소코드명"
+          },
+          {
+            "name": "rgnCd",
+            "desc": "지역분류코드"
+          },
+          {
+            "name": "rgnNm",
+            "desc": "지역분류코드명"
+          },
+          {
+            "name": "insrncGdsNm",
+            "desc": "보험상품명"
+          },
+          {
+            "name": "instlYmd",
+            "desc": "설치일자"
+          },
+          {
+            "name": "joinYmd",
+            "desc": "가입일자"
+          },
+          {
+            "name": "mtryYmd",
+            "desc": "만기일자"
+          },
+          {
+            "name": "insrncEvdoNo",
+            "desc": "보험증서번호"
+          },
+          {
+            "name": "insu",
+            "desc": "보험사"
+          },
+          {
+            "name": "pageIndex",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "recordCountPerPage",
+            "desc": "한페이지결과수"
+          },
+          {
+            "name": "totalCnt",
+            "desc": "전체결과수"
+          },
+          {
+            "name": "totalPageCnt",
+            "desc": "전체페이지수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15032576",
+    "title": "경기도 광명시_어린이놀이시설안전검사결과 현황",
+    "org": "경기도 광명시",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15032576/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15153429",
+    "title": "행정안전부_어린이놀이시설안전점검결과",
+    "org": "행정안전부",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15153429/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15150672",
+    "title": "행정안전부_행정안전부_전국우수어린이놀이시설정보서비스",
+    "org": "행정안전부",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15150672/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15158767",
+    "title": "서울시설공단_서울어린이대공원 입장객 현황_GW",
+    "org": "서울시설공단",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15158767/openapi.do",
+    "operations": [
+      {
+        "path": "/getChildParkEnterStatQry",
+        "method": "get",
+        "label": "어린이대공원 입장객 현황정보 조회 서비스",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메시지"
+          },
+          {
+            "name": "totalCount",
+            "desc": "전체 결과 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "entercount",
+            "desc": "입장객수(명)"
+          },
+          {
+            "name": "inoutdoorcode",
+            "desc": "입장문"
+          },
+          {
+            "name": "processdate",
+            "desc": "날짜"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15158768",
+    "title": "서울시설공단_서울어린이대공원 행사 정보_GW",
+    "org": "서울시설공단",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15158768/openapi.do",
+    "operations": [
+      {
+        "path": "/getChildParkEventInfoQry",
+        "method": "get",
+        "label": "어린이대공원행사정보 조회 서비스",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메시지"
+          },
+          {
+            "name": "totalCount",
+            "desc": "전체 결과 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "endDate",
+            "desc": "행사 종료일자"
+          },
+          {
+            "name": "subject",
+            "desc": "진행중인 행사명"
+          },
+          {
+            "name": "startDate",
+            "desc": "행사 시작일자"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15158616",
+    "title": "서울시설공단_어린이대공원 일별 입장객 인원 정보_GW",
+    "org": "서울시설공단",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15158616/openapi.do",
+    "operations": [
+      {
+        "path": "/getEnterCountQry",
+        "method": "get",
+        "label": "어린이대공원 일별 입장객 인원 정보 조회 서비스",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메시지"
+          },
+          {
+            "name": "totalCount",
+            "desc": "전체 결과 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          },
+          {
+            "name": "processdate",
+            "desc": "일자"
+          },
+          {
+            "name": "locagioncd",
+            "desc": "위치구분"
+          },
+          {
+            "name": "entercd",
+            "desc": "입장객구분"
+          },
+          {
+            "name": "entercnt",
+            "desc": "입장객수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15064913",
+    "title": "식품의약품안전처_어린이식품안전보호구역관리 현황",
+    "org": "식품의약품안전처",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15064913/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15153234",
+    "title": "행정안전부_어린이식품안전보호구역관리현황",
+    "org": "행정안전부",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15153234/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15110522",
+    "title": "대구광역시 서구_어린이기호식품 우수판매업소 현황",
+    "org": "대구광역시 서구",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15110522/openapi.do",
+    "operations": [
+      {
+        "path": "/getChildrensFavoriteFoodVendor",
+        "method": "get",
+        "label": "대구광역시 서구_어린이기호식품 우수판매업소 현황 데이터 조회",
+        "params": [],
+        "fields": [
+          {
+            "name": "header",
+            "desc": ""
+          },
+          {
+            "name": "body",
+            "desc": ""
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15164274",
+    "title": "부산광역시_다함께돌봄센터 정보",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15164274/openapi.do",
+    "operations": [
+      {
+        "path": "/getCareCenter",
+        "method": "get",
+        "label": "부산 다함께돌봄센터 정보",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "stdgNm",
+            "desc": "법정동명"
+          },
+          {
+            "name": "dongNm",
+            "desc": "행정동명"
+          },
+          {
+            "name": "instNm",
+            "desc": "기관명"
+          },
+          {
+            "name": "instAddr",
+            "desc": "기관주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "operDowkNm",
+            "desc": "운영요일명"
+          },
+          {
+            "name": "dyoffDayNm",
+            "desc": "휴무일명"
+          },
+          {
+            "name": "smstrBgng",
+            "desc": "학기시작"
+          },
+          {
+            "name": "smstrEnd",
+            "desc": "학기종료"
+          },
+          {
+            "name": "vctnBgng",
+            "desc": "방학시작"
+          },
+          {
+            "name": "vctnEnd",
+            "desc": "방학종료"
+          },
+          {
+            "name": "utztnTrgtNm",
+            "desc": "이용대상명"
+          },
+          {
+            "name": "utztnCrgAdiInfoCn",
+            "desc": "이용요금부가정보내용"
+          },
+          {
+            "name": "totalCount",
+            "desc": "전체 결과 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  },
+  {
+    "pk": "15126520",
+    "title": "경기도 안양시_지역아동센터_현황",
+    "org": "경기도 안양시",
+    "api_type": "LINK",
+    "endpoint": "https://www.data.go.kr/data/15126520/openapi.do",
+    "operations": [],
+    "hasCoords": false,
+    "note": "LINK 유형 - 외부 제공기관 포털에서 별도 키 발급 필요. data.go.kr 은 바로가기만 제공."
+  },
+  {
+    "pk": "15164264",
+    "title": "부산광역시_지역아동센터정보",
+    "org": "부산광역시",
+    "api_type": "REST",
+    "endpoint": "https://www.data.go.kr/data/15164264/openapi.do",
+    "operations": [
+      {
+        "path": "/getChildCenter",
+        "method": "get",
+        "label": "부산 지역아동센터 정보",
+        "params": [],
+        "fields": [
+          {
+            "name": "resultCode",
+            "desc": "결과코드"
+          },
+          {
+            "name": "resultMsg",
+            "desc": "결과메세지"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "stdgNm",
+            "desc": "법정동명"
+          },
+          {
+            "name": "dongNm",
+            "desc": "행정동명"
+          },
+          {
+            "name": "instNm",
+            "desc": "기관명"
+          },
+          {
+            "name": "instAddr",
+            "desc": "기관주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "operDowkNm",
+            "desc": "운영요일명"
+          },
+          {
+            "name": "dyoffDayNm",
+            "desc": "휴무일명"
+          },
+          {
+            "name": "smstrBgng",
+            "desc": "학기시작"
+          },
+          {
+            "name": "smstrEnd",
+            "desc": "학기종료"
+          },
+          {
+            "name": "vctnBgng",
+            "desc": "방학시작"
+          },
+          {
+            "name": "vctnEnd",
+            "desc": "방학종료"
+          },
+          {
+            "name": "utztnTrgtNm",
+            "desc": "이용대상명"
+          },
+          {
+            "name": "utztnCrgAdiInfoCn",
+            "desc": "이용요금부가정보내용"
+          },
+          {
+            "name": "totalCount",
+            "desc": "전체 결과 수"
+          },
+          {
+            "name": "pageNo",
+            "desc": "페이지번호"
+          },
+          {
+            "name": "numOfRows",
+            "desc": "한 페이지 결과 수"
+          }
+        ]
+      }
+    ],
+    "hasCoords": false,
+    "note": ""
+  }
+]

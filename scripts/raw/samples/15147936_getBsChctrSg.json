@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "60",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "서구",
+            "chctrNm": "가람어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "Y",
+            "zip": "49231",
+            "dtlAddr": "부산광역시 서구 해돋이로 420 (서대신동2가)",
+            "telno": "051-255-5294",
+            "fxno": "051-256-5295",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "8",
+            "careRoomArea": "317",
+            "plgndCnt": "2",
+            "cctvInstlCnt": "16",
+            "nturEduStaffCnt": "16",
+            "pscpCnt": "98",
+            "cnppCnt": "37",
+            "fcltLat": "35.10829344",
+            "fcltLot": "129.0095567",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "19930409",
+            "pvsnSrvcNm": "야간연장형,시간제보육",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "서구",
+            "chctrNm": "그림나라어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "N",
+            "zip": "49234",
+            "dtlAddr": "부산광역시 서구 구덕로301번길 38 (서대신동2가)",
+            "telno": "051-244-8586",
+            "fxno": "051-244-8586",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "7",
+            "careRoomArea": "170",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "8",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "49",
+            "cnppCnt": "0",
+            "fcltLat": "35.11026773",
+            "fcltLot": "129.0153575",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "19981229",
+            "pvsnSrvcNm": "야간연장형",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "서구",
+            "chctrNm": "꼬마동네어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "Y",
+            "zip": "49268",
+            "dtlAddr": "부산광역시 서구 암남로14번길 19 꼬마동네어린이집",
+            "telno": "051-255-7735",
+            "fxno": "051-247-7735",
+            "hopgUrlAddr": "club.cyworld.com/ccomadongne",
+            "careRoomCnt": "5",
+            "careRoomArea": "173",
+            "plgndCnt": "1",
+            "cctvInstlCnt": "9",
+            "nturEduStaffCnt": "14",
+            "pscpCnt": "64",
+            "cnppCnt": "39",
+            "fcltLat": "35.07455383",
+            "fcltLot": "129.0148689",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "19950605",
+            "pvsnSrvcNm": "야간연장형,시간제보육",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "235",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "사하구",
+            "chctrNm": "BNK사하어린이집",
+            "chctrTypeNm": "직장",
+            "operYn": "Y",
+            "zip": "49401",
+            "dtlAddr": "부산광역시 사하구 낙동대로295번길 16",
+            "telno": "051-294-8954",
+            "fxno": "051-294-8955",
+            "hopgUrlAddr": "http:://puruni.com/busanbank4",
+            "careRoomCnt": "4",
+            "careRoomArea": "156",
+            "plgndCnt": "3",
+            "cctvInstlCnt": "11",
+            "nturEduStaffCnt": "7",
+            "pscpCnt": "55",
+            "cnppCnt": "7",
+            "fcltLat": "35.1243461109",
+            "fcltLot": "129.1386383059",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20160224",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "사하구",
+            "chctrNm": "OK오 어린이집",
+            "chctrTypeNm": "직장",
+            "operYn": "N",
+            "zip": "49327",
+            "dtlAddr": "부산광역시 사하구 제석로 34-3",
+            "telno": "051-201-1196",
+            "fxno": "051-201-1196",
+            "hopgUrlAddr": "okoinara@gmail.com",
+            "careRoomCnt": "3",
+            "careRoomArea": "56",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "6",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "20",
+            "cnppCnt": "0",
+            "fcltLat": "35.10444115",
+            "fcltLot": "128.9730317",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20110419",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "사하구",
+            "chctrNm": "SK꿈나래 어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "Y",
+            "zip": "49302",
+            "dtlAddr": "부산광역시 사하구 하신번영로 400 sk뷰 아파트 관리동내",
+            "telno": "051-202-6679",
+            "fxno": "051-202-6680",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "5",
+            "careRoomArea": "120",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "6",
+            "nturEduStaffCnt": "10",
+            "pscpCnt": "43",
+            "cnppCnt": "25",
+            "fcltLat": "35.11774838",
+            "fcltLot": "128.9616446",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "20050127",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

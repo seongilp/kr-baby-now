@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<response>
+<header>
+<resultCode>00</resultCode>
+<resultMsg>NORMAL SERVICE.</resultMsg>
+</header>
+<body>
+<dataTime>20260924104514277</dataTime>
+<pageNo>1</pageNo>
+<numOfRows>3</numOfRows>
+<totalCount>36</totalCount>
+<maxPage>12</maxPage>
+<items>
+<item><orgcd>11100095</orgcd><orgnm>강북삼성병원</orgnm><orgTlno>02-1599-8114</orgTlno><orgAddr>서울특별시 종로구 새문안로 29, (평동)</orgAddr><expnYmd>20090225</expnYmd><vcnList><vcnInfo><vcnNm>결핵(BCG, 피내용)</vcnNm><vcncd>0101</vcncd></vcnInfo><vcnInfo><vcnNm>B형간염(HepB)</vcnNm><vcncd>0202</vcncd></vcnInfo><vcnInfo><vcnNm>디프테리아/파상풍/백일해(DTaP)</vcnNm><vcncd>0301</vcncd></vcnInfo><vcnInfo><vcnNm>파상풍/디프테리아(Td)</vcnNm><vcncd>0302</vcncd></vcnInfo><vcnInfo><vcnNm>파상풍/디프테리아/백일해(Tdap)</vcnNm><vcncd>0306</vcncd></vcnInfo><vcnInfo><vcnNm>홍역/유행성이하선염/풍진(MMR)</vcnNm><vcncd>0501</vcncd></vcnInfo><vcnInfo><vcnNm>일본뇌염(불활성화 백신, 쥐뇌조직 유래)</vcnNm><vcncd>0601</vcncd></vcnInfo><vcnInfo><vcnNm>일본뇌염(불활성화 백신, 베로세포 유래)</vcnNm><vcncd>0603</vcncd></vcnInfo><vcnInfo><vcnNm>인플루엔자(Flu)</vcnNm><vcncd>0901</vcncd></vcnInfo><vcnInfo><vcnNm>b형헤모필루스인플루엔자</vcnNm><vcncd>1401</vcncd></vcnInfo><vcnInfo><vcnNm>디프테리아/파상풍/백일해/폴리오(DTaP-IPV)</vcnNm><vcncd>2301</vcncd></vcnInfo><vcnInfo><vcnNm>디프테리아/파상풍/백일해/폴리오/Hib(DTaP-IPV/Hib)</vcnNm><vcncd>3301</vcncd></vcnInfo><vcnInfo><vcnNm>수두(VAR)</vcnNm><vcncd>1301</vcncd></vcnInfo><vcnInfo><vcnNm>A형간염(HepA)</vcnNm><vcncd>1501</vcncd></vcnInfo><vcnInfo><vcnNm>폐렴구균(PCV 13가)</vcnNm><vcncd>1601</vcncd></vcnInfo><vcnInfo><vcnNm>폐렴구균(PPSV 23가)</vcnNm><vcncd>1602</vcncd></vcnInfo><vcnInfo><vcnNm>폐렴구균(PCV 10가)</vcnNm><vcncd>1603</vcncd></vcnInfo><vcnInfo><vcnNm>폐렴구균(PCV 15가)</vcnNm><vcncd>1605</vcncd></vcnInfo><vcnInfo><vcnNm>사람유두종바이러스(HPV, 가다실)_자궁경부암</vcnNm><vcncd>2001</vcncd></vcnInfo><vcnInfo><vcnNm>로타바이러스(로타릭스)</vcnNm><vcncd>1901</vcncd></vcnInfo><vcnInfo><vcnNm>로타바이러스(로타텍)</vcnNm><vcncd>1902</vcncd></vcnInfo></vcnList></item>
+<item><orgcd>12327298</orgcd><orgnm>광화문하나이비인후과의원</orgnm><orgTlno>02-722-6087</orgTlno><orgAddr>서울특별시 종로구 자하문로2길 4, (적선동, 경복빌딩) 5층</orgAddr><expnYmd>20210714</expnYmd><vcnList><vcnInfo><vcnNm>인플루엔자(Flu)</vcnNm><vcncd>0901</vcncd></vcnInfo></vcnList></item>
+<item><orgcd>12331970</orgcd><orgnm>늘푸른비뇨기과의원</orgnm><orgTlno>02-2272-5588</orgTlno><orgAddr>서울특별시 종로구 종로 128, (종로3가, 화영빌딩) 6층</orgAddr><expnYmd>20200727</expnYmd><vcnList><vcnInfo><vcnNm>인플루엔자(Flu)</vcnNm><vcncd>0901</vcncd></vcnInfo></vcnList></item>
+</items>
+</body>
+</response>

@@ -1,0 +1,57 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0",
+      "resultMsg": "NORMAL SERVICE"
+    },
+    "body": {
+      "resultType": "json",
+      "numOfRows": 3,
+      "totalCount": 17,
+      "pageNo": 1,
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "강원특별자치도",
+            "childCareInstNo": "C0500",
+            "childCareInstNm": "강원도 광역거점",
+            "rprsTelno": "033-745-6013",
+            "drtlnTelno": "033-142-7649",
+            "fxno": "033-731-9623",
+            "zip": "26411",
+            "addr": "강원특별자치도 원주시 앙월길 11-6",
+            "lot": "",
+            "lat": "",
+            "dataCrtrYmd": "20260413"
+          },
+          {
+            "ctpvNm": "경기도",
+            "childCareInstNo": "C0498",
+            "childCareInstNm": "경기도아이돌봄광역지원센터",
+            "rprsTelno": "031-898-9748",
+            "drtlnTelno": "",
+            "fxno": "031-8008-8050",
+            "zip": "16491",
+            "addr": "경기도 수원시 팔달구 효원로308번길 34",
+            "lot": "",
+            "lat": "",
+            "dataCrtrYmd": "20260413"
+          },
+          {
+            "ctpvNm": "경상남도",
+            "childCareInstNo": "C0490",
+            "childCareInstNm": "경상남도아이돌봄광역지원센터",
+            "rprsTelno": "055-716-2361",
+            "drtlnTelno": "055-716-2361",
+            "fxno": "0505-700-2112",
+            "zip": "51117",
+            "addr": "경남 창원시 의창구 동읍 동읍로 457번길 48",
+            "lot": "",
+            "lat": "",
+            "dataCrtrYmd": "20260413"
+          }
+        ]
+      }
+    }
+  }
+}

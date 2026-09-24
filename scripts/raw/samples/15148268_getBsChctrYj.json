@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "140",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "연제구",
+            "chctrNm": "연산중앙어린이집",
+            "chctrTypeNm": "가정",
+            "operYn": "N",
+            "zip": "47616",
+            "dtlAddr": "부산광역시 연제구 연수로226번길 39 (연산동)",
+            "telno": "051-862-2302",
+            "fxno": null,
+            "hopgUrlAddr": "http://club.cyworld.com/yj8622302",
+            "careRoomCnt": "4",
+            "careRoomArea": "52",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "0",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "15",
+            "cnppCnt": "0",
+            "fcltLat": "35.17164955",
+            "fcltLot": "129.0951743",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20051209",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "연제구",
+            "chctrNm": "연서어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "Y",
+            "zip": "47518",
+            "dtlAddr": "부산광역시 연제구 세병로 10-4",
+            "telno": "051-861-4184",
+            "fxno": "051-861-4280",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "4",
+            "careRoomArea": "139",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "7",
+            "nturEduStaffCnt": "9",
+            "pscpCnt": "39",
+            "cnppCnt": "18",
+            "fcltLat": "35.18930129",
+            "fcltLot": "129.0846563",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "19981118",
+            "pvsnSrvcNm": "야간연장형",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "연제구",
+            "chctrNm": "연아어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "N",
+            "zip": "47587",
+            "dtlAddr": "부산광역시 연제구 토곡남로20번길 9 (연산동)",
+            "telno": "051-759-6128",
+            "fxno": "051-752-6128",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "7",
+            "careRoomArea": "129",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "7",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "49",
+            "cnppCnt": "48",
+            "fcltLat": "35.18171721",
+            "fcltLot": "129.1046876",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "20040830",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

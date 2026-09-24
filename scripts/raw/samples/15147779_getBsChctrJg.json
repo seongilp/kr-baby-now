@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "17",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "중구",
+            "chctrNm": "남포어린이집",
+            "chctrTypeNm": "국공립",
+            "operYn": "N",
+            "zip": null,
+            "dtlAddr": "부산 중구 남포동4가 32-2",
+            "telno": "051-245-5078",
+            "fxno": "051-245-5078",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "4",
+            "careRoomArea": "96",
+            "plgndCnt": "1",
+            "cctvInstlCnt": "0",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "42",
+            "cnppCnt": "0",
+            "fcltLat": null,
+            "fcltLot": null,
+            "atschVhclOperYn": null,
+            "sncnYmd": "19980101",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "중구",
+            "chctrNm": "노틀담어린이집",
+            "chctrTypeNm": "국공립",
+            "operYn": "Y",
+            "zip": "48904",
+            "dtlAddr": "부산광역시 중구 망양로 309 (대청동4가)",
+            "telno": "051-464-0570",
+            "fxno": "051-464-0573",
+            "hopgUrlAddr": "http://cafe.daum.net/ntdbusan",
+            "careRoomCnt": "6",
+            "careRoomArea": "290",
+            "plgndCnt": "2",
+            "cctvInstlCnt": "8",
+            "nturEduStaffCnt": "12",
+            "pscpCnt": "99",
+            "cnppCnt": "29",
+            "fcltLat": "35.10580798",
+            "fcltLot": "129.0282553",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "19941004",
+            "pvsnSrvcNm": "야간연장형",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "중구",
+            "chctrNm": "다사랑어린이집",
+            "chctrTypeNm": "국공립",
+            "operYn": "Y",
+            "zip": "48959",
+            "dtlAddr": "부산광역시 중구 보수동1가 보수대로140번길 61 보수동주민센터3층 (보수동1가)",
+            "telno": "051-245-5078",
+            "fxno": "051-245-5079",
+            "hopgUrlAddr": "http://instagram.com/dasarang2455076",
+            "careRoomCnt": "4",
+            "careRoomArea": "132",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "8",
+            "nturEduStaffCnt": "10",
+            "pscpCnt": "49",
+            "cnppCnt": "29",
+            "fcltLat": "35.10626047",
+            "fcltLot": "129.0246368",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "20110701",
+            "pvsnSrvcNm": "야간연장형,24시간",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

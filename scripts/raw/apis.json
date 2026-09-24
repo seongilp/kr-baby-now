@@ -1,0 +1,3492 @@
+[
+  {
+    "pk": "15110594",
+    "title": "대구광역시 동구_임산부우대 음식점 현황",
+    "desc": "임산부우대 음식점 현황 조회서비스 API는임산부를 대상으로 혜택을 제공하는 음식점 정보를 체계적으로 제공하는 데이터 서비스입니다.",
+    "org": "대구광역시 동구",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/3420000/preferredPregnantWmnRstrnService",
+    "operations": [
+      {
+        "name": "/getPreferredPregnantWmnRstrn",
+        "label": "대구광역시 동구 임산부 우대 음식점 현황 데이터 조회",
+        "operationId": "getPreferredPregnantWmnRstrn",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558699",
+    "testCode": null
+  },
+  {
+    "pk": "15154981",
+    "title": "행정안전부_건강_산후조리업 조회서비스",
+    "desc": "건강_산후조리업 데이터는 출산 이후임산부및 신생아의 건강과 위생을 관리하기 위한 시설 정보 사업장명, 허가일자, 영업상태, 사업장 주소 등의 데이터를 제공합니다. - 공공데이터",
+    "org": "행정안전부",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/1741000/postpartum_care",
+    "operations": [
+      {
+        "name": "/info",
+        "label": "건강_산후조리업 데이터 조회",
+        "operationId": "info",
+        "params": [],
+        "fields": []
+      },
+      {
+        "name": "/history",
+        "label": "건강_산후조리업 데이터 이력조회",
+        "operationId": "history",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558700",
+    "testCode": null
+  },
+  {
+    "pk": "15034033",
+    "title": "부산광역시_수유실 보유 시설 현황",
+    "desc": "임산부와 영유아의 건강증진 및 출생 친화적 분위기 조성을 위하여 모유 수유 확대 및 모유 수유에 대한 인식을 개선하고, 수유부들이 편리하게 이용할 수 있는 환경을 조성하여 영유아의",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BusanNursingroomInfoService",
+    "operations": [
+      {
+        "name": "/getNursingroomInfo",
+        "label": "",
+        "operationId": "getNursingroomInfo",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558701",
+    "testCode": null
+  },
+  {
+    "pk": "15114191",
+    "title": "부산광역시_출산지원금 현황",
+    "desc": "부산광역시출산지원금 현황(지원금 유형, 자녀 수에 따른 지원금 액수, 관리부서명, 데이터기준일자, 구군명 등)에 대한 안내 및 정보를 제공하는 API 서비스입니다.",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BusanChildBirthService",
+    "operations": [
+      {
+        "name": "/getTblChildBirth",
+        "label": "출산지원금 현황",
+        "operationId": "getTblChildBirth",
+        "params": [],
+        "fields": [
+          {
+            "name": "gugun",
+            "desc": "구군명"
+          },
+          {
+            "name": "pay_year",
+            "desc": "지급년도"
+          },
+          {
+            "name": "subsidy_type",
+            "desc": "지원금 유형"
+          },
+          {
+            "name": "division",
+            "desc": "구분"
+          },
+          {
+            "name": "subsidy",
+            "desc": "지원금"
+          },
+          {
+            "name": "department_name",
+            "desc": "관리부서명"
+          },
+          {
+            "name": "basic_date",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558702",
+    "testCode": null
+  },
+  {
+    "pk": "15088928",
+    "title": "부산광역시_산후조리원 현황",
+    "desc": "산후조리원은출산후 산모와 신생아가 안정적으로 회복하고, 전문적인 관리를 받을 수 있도록 돕는 시설입니다.",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BusanBabyCenterInfoService",
+    "operations": [
+      {
+        "name": "/getBabyCenterInfo",
+        "label": "",
+        "operationId": "getBabyCenterInfo",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558703",
+    "testCode": null
+  },
+  {
+    "pk": "15156157",
+    "title": "육아정책연구소_한국 영유아 교육·보육 패널 설문 응답 데이터 제공",
+    "desc": "태아기부터 초등학교 시기까지 아동과 아동의 가족을 둘러싼 복합적이고 다면적인 환경과의 역동적인 관계에서 아동의 성장 및 발달을 지속적으로 추적 조사하여 배경, 가구, 지역 등 변인 별 설문문항 및 응답 데이터를 수집한 정보를 제공합니다.",
+    "org": "육아정책연구소",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/B552655/KorKececpSurveyResp",
+    "operations": [
+      {
+        "name": "/getKorKececpSurveyResp",
+        "label": "한국 영유아 교육·보육 패널 데이터",
+        "operationId": "getKorKececpSurveyResp",
+        "params": [],
+        "fields": [
+          {
+            "name": "aiCrtYn",
+            "desc": "인공지능 생성여부"
+          },
+          {
+            "name": "cbookSn",
+            "desc": "코드북 일련번호"
+          },
+          {
+            "name": "cyclCd",
+            "desc": "설문차수"
+          },
+          {
+            "name": "dtlExpln",
+            "desc": "상세설명"
+          },
+          {
+            "name": "lclsfCd",
+            "desc": "대분류 코드"
+          },
+          {
+            "name": "lclsfNm",
+            "desc": "대분류 이름"
+          },
+          {
+            "name": "mclsfCd",
+            "desc": "중분류 코드"
+          },
+          {
+            "name": "mclsfNm",
+            "desc": "중분류 이름"
+          },
+          {
+            "name": "qitemCd",
+            "desc": "문항 코드"
+          },
+          {
+            "name": "qitemCn",
+            "desc": "문항 내용"
+          },
+          {
+            "name": "qstnCn",
+            "desc": "질문 내용"
+          },
+          {
+            "name": "rspdntCnt",
+            "desc": "응답자 수"
+          },
+          {
+            "name": "rspnsCd",
+            "desc": "응답 코드"
+          },
+          {
+            "name": "rspnsNm",
+            "desc": "응답명"
+          },
+          {
+            "name": "rspvl",
+            "desc": "응답값 평균"
+          },
+          {
+            "name": "sclsfCd",
+            "desc": "소분류 코드"
+          },
+          {
+            "name": "sclsfNm",
+            "desc": "소분류 이름"
+          },
+          {
+            "name": "srvyId",
+            "desc": "설문 아이디"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558704",
+    "testCode": null
+  },
+  {
+    "pk": "15156156",
+    "title": "육아정책연구소_한국 아동 패널 설문 응답 데이터 제공",
+    "desc": "우리나라 아동의 성장·발달 과정을 출생부터 장기적으로 추적·조사하여 아동, 가구, 부모 등 특성 변인 별 설문문항 및 응답 데이터를 수집한 정보를 제공합니다.",
+    "org": "육아정책연구소",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/B552655/KorKcpsSurveyResp",
+    "operations": [
+      {
+        "name": "/getKorKcpsSurveyResp",
+        "label": "한국아동패널 데이터",
+        "operationId": "getKorKcpsSurveyResp",
+        "params": [],
+        "fields": [
+          {
+            "name": "aiCrtYn",
+            "desc": "인공지능생성여부"
+          },
+          {
+            "name": "cbookSn",
+            "desc": "코드북 일련번호"
+          },
+          {
+            "name": "ctgryCd",
+            "desc": "범주 코드"
+          },
+          {
+            "name": "ctgryNm",
+            "desc": "범주 이름"
+          },
+          {
+            "name": "cyclCd",
+            "desc": "설문 차수"
+          },
+          {
+            "name": "dtlExpln",
+            "desc": "설문 상세설명"
+          },
+          {
+            "name": "lclsfCd",
+            "desc": "대분류 코드"
+          },
+          {
+            "name": "lclsfNm",
+            "desc": "대분류 이름"
+          },
+          {
+            "name": "mclsfCd",
+            "desc": "중분류 코드"
+          },
+          {
+            "name": "mclsfNm",
+            "desc": "중분류 이름"
+          },
+          {
+            "name": "qitemCd",
+            "desc": "문항 코드"
+          },
+          {
+            "name": "qitemCn",
+            "desc": "문항 내용"
+          },
+          {
+            "name": "qstnCn",
+            "desc": "질문 내용"
+          },
+          {
+            "name": "rspdntCnt",
+            "desc": "응답자 수"
+          },
+          {
+            "name": "rspnsCd",
+            "desc": "응답 코드"
+          },
+          {
+            "name": "rspnsNm",
+            "desc": "응답명"
+          },
+          {
+            "name": "rspvl",
+            "desc": "응답값 평균"
+          },
+          {
+            "name": "sclsfCd",
+            "desc": "소분류 코드"
+          },
+          {
+            "name": "sclsfNm",
+            "desc": "소분류 이름"
+          },
+          {
+            "name": "srvyId",
+            "desc": "설문 아이디"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558706",
+    "testCode": null
+  },
+  {
+    "pk": "15147948",
+    "title": "부산광역시_부산진구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrBjService",
+    "operations": [
+      {
+        "name": "/getBsChctrBj",
+        "label": "부산광역시 부산진구 어린이집 현황 조회",
+        "operationId": "getBsChctrBj",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558707",
+    "testCode": null
+  },
+  {
+    "pk": "15147779",
+    "title": "부산광역시_중구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrJgService",
+    "operations": [
+      {
+        "name": "/getBsChctrJg",
+        "label": "부산광역시 중구 어린이집 현황 조회",
+        "operationId": "getBsChctrJg",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558708",
+    "testCode": null
+  },
+  {
+    "pk": "15148276",
+    "title": "부산광역시_사상구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrSsService",
+    "operations": [
+      {
+        "name": "/getBsChctrSs",
+        "label": "부산광역시 사상구 어린이집 현황 조회",
+        "operationId": "getBsChctrSs",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558710",
+    "testCode": null
+  },
+  {
+    "pk": "15147936",
+    "title": "부산광역시_서구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrSgService",
+    "operations": [
+      {
+        "name": "/getBsChctrSg",
+        "label": "부산광역시 서구 어린이집 현황 조회",
+        "operationId": "getBsChctrSg",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558713",
+    "testCode": null
+  },
+  {
+    "pk": "15148262",
+    "title": "부산광역시_강서구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrGsService",
+    "operations": [
+      {
+        "name": "/getBsChctrGs",
+        "label": "부산광역시 강서구 어린이집 현황 조회",
+        "operationId": "getBsChctrGs",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558714",
+    "testCode": null
+  },
+  {
+    "pk": "15148252",
+    "title": "부산광역시_사하구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrShService",
+    "operations": [
+      {
+        "name": "/getBsChctrSh",
+        "label": "부산광역시 사하구 어린이집 현황 조회",
+        "operationId": "getBsChctrSh",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558724",
+    "testCode": null
+  },
+  {
+    "pk": "15148277",
+    "title": "부산광역시_기장군 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrGiService",
+    "operations": [
+      {
+        "name": "/getBsChctrGi",
+        "label": "부산광역시 해운대구 어린이집 현황 조회",
+        "operationId": "getBsChctrGi",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558726",
+    "testCode": null
+  },
+  {
+    "pk": "15148269",
+    "title": "부산광역시_수영구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrSyService",
+    "operations": [
+      {
+        "name": "/getBsChctrSy",
+        "label": "부산광역시 수영구 어린이집 현황 조회",
+        "operationId": "getBsChctrSy",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558730",
+    "testCode": null
+  },
+  {
+    "pk": "15147943",
+    "title": "부산광역시_동구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrDgService",
+    "operations": [
+      {
+        "name": "/getBsChctrDg",
+        "label": "부산광역시 동구 어린이집 현황 조회",
+        "operationId": "getBsChctrDg",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558755",
+    "testCode": null
+  },
+  {
+    "pk": "15147990",
+    "title": "부산광역시_남구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrNgService",
+    "operations": [
+      {
+        "name": "/getBsChctrNg",
+        "label": "부산광역시 남구 어린이집 현황 조회",
+        "operationId": "getBsChctrNg",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558758",
+    "testCode": null
+  },
+  {
+    "pk": "15147966",
+    "title": "부산광역시_동래구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrDnService",
+    "operations": [
+      {
+        "name": "/getBsChctrDn",
+        "label": "부산광역시 동래구 어린이집 현황 조회",
+        "operationId": "getBsChctrDn",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558760",
+    "testCode": null
+  },
+  {
+    "pk": "15148259",
+    "title": "부산광역시_금정구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrGjService",
+    "operations": [
+      {
+        "name": "/getBsChctrGj",
+        "label": "부산광역시 금정구 어린이집 현황 조회",
+        "operationId": "getBsChctrGj",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558764",
+    "testCode": null
+  },
+  {
+    "pk": "15147995",
+    "title": "부산광역시_북구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrBgService",
+    "operations": [
+      {
+        "name": "/getBsChctrBg",
+        "label": "부산광역시 북구 어린이집 현황 조회",
+        "operationId": "getBsChctrBg",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558771",
+    "testCode": null
+  },
+  {
+    "pk": "15148268",
+    "title": "부산광역시_연제구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrYjService",
+    "operations": [
+      {
+        "name": "/getBsChctrYj",
+        "label": "부산광역시 연제구 어린이집 현황 조회",
+        "operationId": "getBsChctrYj",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558813",
+    "testCode": null
+  },
+  {
+    "pk": "15147946",
+    "title": "부산광역시_영도구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrYdService",
+    "operations": [
+      {
+        "name": "/getBsChctrYd",
+        "label": "부산광역시 영도구 어린이집 현황 조회",
+        "operationId": "getBsChctrYd",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558816",
+    "testCode": null
+  },
+  {
+    "pk": "15148121",
+    "title": "부산광역시_해운대구 어린이집 현황",
+    "desc": "어린이집 현황 API는 부산광역시의 어린이집 운영 현황과 기본 정보를 체계적으로 제공하는 서비스입니다. 응답 항목에는 어린이집의 행정구역 정보(시도명, 시군구명), 기관명과 유형, 운영 여부가 포함되어 있어 기본적인 식별이 가능합니다. 또한 우편번호, 상세주소, 전화번호, 팩스번호, 홈페이지 URL을 제공하여 이용자가 직접 연락하거나 위치를 확인할 수 있습니다. 시설 관련 정보로는 보육실 수와 면적, 놀이터 수, CCTV 설치 수 등이 제공되며, 보육교직원 수, 정원 및 현원 현황을 통해 운영 규모와 안전 수준을 파악할 수 있습니다. 아울러 위도와 경도 좌표를 제공하여 지도 기반 서비스와 연계가 가능하며, 통학차량 운영 여부와 인가일자를 통해 운영 형태를 명확히 확인할 수 있습니다. 추가적으로 제공 서비스 항목과 데이터 기준일자가 포함되어 있어 정책 수립, 학부모 선택, 지역별 보육 수급 분석 등에 활용할 수 있습니다. 이 API는 어린이집 이용자와 행정기관 모두에게 투명하고 신뢰성 있는 보육 정보를 제공하는 데 목적이 있습니다. ※ 원시시스템 한계로 인해 구군별로 데이터 조회 가능합니다. (부산시 전체 조회 불가)",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BsChctrHgService",
+    "operations": [
+      {
+        "name": "/getBsChctrHg",
+        "label": "부산광역시 해운대구 어린이집 현황 조회",
+        "operationId": "getBsChctrHg",
+        "params": [],
+        "fields": [
+          {
+            "name": "ctpvNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "chctrNm",
+            "desc": "어린이집명"
+          },
+          {
+            "name": "chctrTypeNm",
+            "desc": "어린이집유형명"
+          },
+          {
+            "name": "operYn",
+            "desc": "운영여부(Y:운영,N:폐지)"
+          },
+          {
+            "name": "zip",
+            "desc": "우편번호"
+          },
+          {
+            "name": "dtlAddr",
+            "desc": "상세주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fxno",
+            "desc": "팩스번호"
+          },
+          {
+            "name": "hopgUrlAddr",
+            "desc": "홈페이지URL주소"
+          },
+          {
+            "name": "careRoomCnt",
+            "desc": "보육실수"
+          },
+          {
+            "name": "careRoomArea",
+            "desc": "보육실면적"
+          },
+          {
+            "name": "plgndCnt",
+            "desc": "놀이터수"
+          },
+          {
+            "name": "cctvInstlCnt",
+            "desc": "CCTV설치수"
+          },
+          {
+            "name": "nturEduStaffCnt",
+            "desc": "보육교직원수"
+          },
+          {
+            "name": "pscpCnt",
+            "desc": "정원수"
+          },
+          {
+            "name": "cnppCnt",
+            "desc": "현원수"
+          },
+          {
+            "name": "fcltLat",
+            "desc": "시설위도"
+          },
+          {
+            "name": "fcltLot",
+            "desc": "시설경도"
+          },
+          {
+            "name": "atschVhclOperYn",
+            "desc": "통학차량운영여부(Y:운영,N:미운영)"
+          },
+          {
+            "name": "sncnYmd",
+            "desc": "인가일자"
+          },
+          {
+            "name": "pvsnSrvcNm",
+            "desc": "제공서비스명"
+          },
+          {
+            "name": "datCrtrYmd",
+            "desc": "데이터기준일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558817",
+    "testCode": null
+  },
+  {
+    "pk": "15088938",
+    "title": "부산광역시_키즈카페현황",
+    "desc": "주로영유아및 어린이(보통 1세~7세)를 대상으로 하며, 부모와 아이 모두에게 편안하고 즐거운 시간을 제공하는 것이 목적입니다.",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BusanKidsCafeInfoService",
+    "operations": [
+      {
+        "name": "/getKidsCafeInfo",
+        "label": "",
+        "operationId": "getKidsCafeInfo",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558818",
+    "testCode": null
+  },
+  {
+    "pk": "15109490",
+    "title": "대전광역시_유치원 정보",
+    "desc": "이를 통해 학부모는 자녀의 유치원 선택 시 각 기관의 위치, 규모, 정원 대비 현원, 부가 서비스 등을 확인할 수 있으며 행정기관이나 연구기관은 지역별 교육 환경 분석,유아수용능력",
+    "org": "대전광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6300000/openapi2022/kinderschInfo",
+    "operations": [
+      {
+        "name": "/getkinderschInfo",
+        "label": "",
+        "operationId": "getkinderschInfo",
+        "params": [
+          {
+            "name": "gu",
+            "desc": "N/P/A",
+            "required": true
+          }
+        ],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558820",
+    "testCode": null,
+    "note_manual_fix": "endpoint/params corrected from swagger host+basePath after NO_OPENAPI_SERVICE_ERROR"
+  },
+  {
+    "pk": "3045532",
+    "title": "전북특별자치도 전주시_어린이집현황",
+    "desc": "전주시내어린이집현황(소재지,연락처,인원 등)",
+    "org": "전북특별자치도 전주시",
+    "type": "OPENAPI",
+    "endpoint": "openapi.jeonju.go.kr/rest/nurserynew",
+    "operations": [
+      {
+        "name": "/getNurseryList",
+        "label": "",
+        "operationId": "getNurseryList",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558821",
+    "testCode": null
+  },
+  {
+    "pk": "15097863",
+    "title": "경기도 용인시_어린이집현황 조회 서비스",
+    "desc": "본 데이터는 용인시어린이집현황 조회 API를 통해 제공되는 관내어린이집정보를 체계적으로 관리하기 위한 자료이다.",
+    "org": "경기도 용인시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/4050000/nrsry",
+    "operations": [
+      {
+        "name": "/getNrsry",
+        "label": "",
+        "operationId": "getNrsry",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558822",
+    "testCode": null
+  },
+  {
+    "pk": "15096004",
+    "title": "충청남도 계룡시_보육시설(어린이집) 현황 API",
+    "desc": "충청남도 계룡시의 '보육시설(어린이집) 현황 API' 데이터는 관내에 등록되어 운영 중인어린이집들의 상세 운영 및 규모 정보를 실시간으로 제공하는 공공데이터 서비스입니다.",
+    "org": "충청남도 계룡시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/5580000/dycrctSttusService",
+    "operations": [
+      {
+        "name": "/getdycrctSttus",
+        "label": "",
+        "operationId": "getdycrctSttus",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558823",
+    "testCode": null
+  },
+  {
+    "pk": "15070773",
+    "title": "부산광역시 해운대구_교육/보육기관 정보 조회 서비스",
+    "desc": "교육/보육기관의 교육기관명, 주소, 전화번호, 동명, 수용인원, 위도, 경도, 분류명(어린이집, 유치원, 초등학교 등) 데이터를 포함하고 있습니다.",
+    "org": "부산광역시 해운대구",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/3330000/HeaundaeEduNursInstInfoService",
+    "operations": [
+      {
+        "name": "/getEduNursInsttList",
+        "label": "",
+        "operationId": "getEduNursInsttList",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558824",
+    "testCode": null
+  },
+  {
+    "pk": "15078130",
+    "title": "한국건강가정진흥원_아이돌봄서비스제공기관 정보 서비스",
+    "desc": "서비스제공기관,아이돌봄,아이돌봄서비스제공기관,기관주소,기관위치','아이돌봄 서비스제공기관 정보 서비스를 제공하는 오픈 API형 데이터입니다.",
+    "org": "한국건강가정진흥원",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/1383000/idis/serviceInstitutionService",
+    "operations": [
+      {
+        "name": "/getServiceInstitutionList",
+        "label": "",
+        "operationId": "getServiceInstitutionList",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558825",
+    "testCode": null
+  },
+  {
+    "pk": "15078132",
+    "title": "한국건강가정진흥원_아이돌봄광역거점기관 정보 서비스",
+    "desc": "아이돌봄 광역거점 기관 정보를 제공하는 오픈 API형 데이터입니다.",
+    "org": "한국건강가정진흥원",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/1383000/idis/areaBaseInstitutionService",
+    "operations": [
+      {
+        "name": "/getAreaBaseInstitutionList",
+        "label": "",
+        "operationId": "getAreaBaseInstitutionList",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558826",
+    "testCode": null
+  },
+  {
+    "pk": "15078134",
+    "title": "한국건강가정진흥원_아이돌봄서비스이용요금표 정보 서비스",
+    "desc": "아이돌봄 서비스이용 요금표 정보 서비스를 제공하는 오픈 API형 데이터입니다.",
+    "org": "한국건강가정진흥원",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/1383000/idis/usageFeeService",
+    "operations": [
+      {
+        "name": "/getUsageFeeList",
+        "label": "",
+        "operationId": "getUsageFeeList",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558827",
+    "testCode": null
+  },
+  {
+    "pk": "15078149",
+    "title": "한국건강가정진흥원_아이돌봄정부지원 자격여부 입증서류 및 확인방법 정보 서비스",
+    "desc": "아이돌봄정부지원 자격여부 입증 서류 및 확인 방법 정보 서비스를 제공하는 오픈API입니다.",
+    "org": "한국건강가정진흥원",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/1383000/idis/qualificationDocumentsService",
+    "operations": [
+      {
+        "name": "/getQualificationDocumentsList",
+        "label": "",
+        "operationId": "getQualificationDocumentsList",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558828",
+    "testCode": null
+  },
+  {
+    "pk": "15157814",
+    "title": "경상북도 영천시_지역아동센터 현황",
+    "desc": "본 데이터는 경상북도 영천시에 소재한 지역아동센터의 현황 정보를 포함하고 있습니다. 영천시 내 각 아동센터의 위치, 정원 및 현원, 연락처, 운영시간, 운영형태, 급식 방식 등에 관한 상세한 내용을 제공하며, 지역아동센터의 운영 현황 파악과 정책 수립에 활용될 수 있는 중요한 자료입니다. 데이터는 총 7개 센터의 정보를 포함하고 있으며, 각 센터별로 소재지, 정원과 현원, 전화번호, 운영시간, 운영형태, 급식 방식이 구체적으로 기재되어 있습니다. 이를 통해 영천시 내 아동복지 서비스의 현황을 한눈에 파악할 수 있습니다. 해당 데이터와 관련하여 궁금하신 사항이 있으실 경우 영천시 가족행복과로 연락주시기 바랍니다.",
+    "org": "경상북도 영천시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/5100000/YeongcheonChildcenter",
+    "operations": [
+      {
+        "name": "/getResult",
+        "label": "지역아동센터 현황 조회",
+        "operationId": "getResult",
+        "params": [],
+        "fields": [
+          {
+            "name": "no",
+            "desc": "연번"
+          },
+          {
+            "name": "fcltyNm",
+            "desc": "시설명"
+          },
+          {
+            "name": "addr",
+            "desc": "소재지"
+          },
+          {
+            "name": "fullPrsnCnt",
+            "desc": "정원"
+          },
+          {
+            "name": "currPrsnCnt",
+            "desc": "현원"
+          },
+          {
+            "name": "tel",
+            "desc": "전화번호"
+          },
+          {
+            "name": "fax",
+            "desc": "팩스"
+          },
+          {
+            "name": "time",
+            "desc": "운영시간"
+          },
+          {
+            "name": "type",
+            "desc": "운영형태"
+          },
+          {
+            "name": "mealYn",
+            "desc": "급식"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558829",
+    "testCode": null
+  },
+  {
+    "pk": "15034023",
+    "title": "부산광역시_구군 보건소 예방접종 정보",
+    "desc": "각종 법정 전염병에 대해 성인, 청소년,소아들이 감염되지 않도록 예방 접종 정보를 개방하고 있습니다.",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/BusanTblVcnStusService",
+    "operations": [
+      {
+        "name": "/getTblVcnStusInfo",
+        "label": "",
+        "operationId": "getTblVcnStusInfo",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558830",
+    "testCode": null
+  },
+  {
+    "pk": "15084303",
+    "title": "질병관리청_어린이 국가예방접종지원사업 위탁의료기관 현황 정보",
+    "desc": "지역 코드, 검색어를 이용하여 어린이 국가예방접종지원사업에 참여하는 위탁의료기관 목록 및 상세정보를 조회할 수 있는 서비스입니다.",
+    "org": "질병관리청",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/1790387/orglist3",
+    "operations": [
+      {
+        "name": "/getOrgList3",
+        "label": "",
+        "operationId": "getOrgList3",
+        "params": [
+          {
+            "name": "brtcCd",
+            "desc": "시도코드",
+            "required": true
+          },
+          {
+            "name": "sggCd",
+            "desc": "시군구코드",
+            "required": true
+          }
+        ],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558831",
+    "testCode": null,
+    "note_manual_fix": "endpoint/params corrected from swagger host+basePath after NO_OPENAPI_SERVICE_ERROR"
+  },
+  {
+    "pk": "15124519",
+    "title": "행정안전부_전국어린이놀이시설정보서비스",
+    "desc": "행정안전부_전국어린이놀이시설정보서비스는 전국어린이놀이시설의 위치 및 기본 정보를 체계적으로 제공하는 공공데이터 서비스입니다.",
+    "org": "행정안전부",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/1741000/pfc3",
+    "operations": [
+      {
+        "name": "/getPfctInfo3",
+        "label": "전국어린이놀이시설정보서비스",
+        "operationId": "getPfctInfo3",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558833",
+    "testCode": null
+  },
+  {
+    "pk": "15124524",
+    "title": "행정안전부_전국어린이놀이시설안전검사정보서비스",
+    "desc": "행정안전부_전국어린이놀이시설안전검사정보서비스는 전국어린이놀이시설의 안전검사 현황을 제공하는 공공데이터 서비스입니다.",
+    "org": "행정안전부",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/1741000/sfty4",
+    "operations": [
+      {
+        "name": "/getSftyInsp4",
+        "label": "전국어린이놀이시설안전검사정보서비스",
+        "operationId": "getSftyInsp4",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558834",
+    "testCode": null
+  },
+  {
+    "pk": "15124521",
+    "title": "행정안전부_전국어린이놀이시설기구정보서비스",
+    "desc": "행정안전부_전국어린이놀이시설기구정보서비스는 전국어린이놀이시설에 설치된놀이기구의 세부 정보를 제공하는 공공데이터 서비스입니다.",
+    "org": "행정안전부",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/1741000/ride4",
+    "operations": [
+      {
+        "name": "/getRide4",
+        "label": "전국어린이놀이시설기구정보서비스",
+        "operationId": "getRide4",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558835",
+    "testCode": null
+  },
+  {
+    "pk": "15124527",
+    "title": "행정안전부_전국어린이놀이시설우수시설정보서비스",
+    "desc": "행정안전부_전국어린이놀이시설우수시설정보서비스는 전국의어린이놀이시설중 우수시설로 지정된 곳의 정보를 제공하는 공공데이터 서비스입니다.",
+    "org": "행정안전부",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/1741000/exfc5",
+    "operations": [
+      {
+        "name": "/getExfc5",
+        "label": "우수시설정보조회",
+        "operationId": "getExfc5",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558837",
+    "testCode": null
+  },
+  {
+    "pk": "15124525",
+    "title": "행정안전부_전국어린이놀이시설보험가입정보서비스",
+    "desc": "행정안전부_전국어린이놀이시설보험가입정보서비스는 전국어린이놀이시설의 보험 가입 현황을 실시간으로 제공하는 공공데이터 서비스입니다.",
+    "org": "행정안전부",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/1741000/insrnc4",
+    "operations": [
+      {
+        "name": "/getInsrncMng4",
+        "label": "보험가입정보조회",
+        "operationId": "getInsrncMng4",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558839",
+    "testCode": null
+  },
+  {
+    "pk": "15158767",
+    "title": "서울시설공단_서울어린이대공원 입장객 현황_GW",
+    "desc": "서울시 능동에 위치한 서울어린이대공원은 53만여㎡의 넓은 공간 속에 동물원, 식물원,놀이동산 및 다양한 공연시설과 체험공간이 가득한어린이가족테마공원으로, 사계절 내내 다양한 연간",
+    "org": "서울시설공단",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/B553774/ChildParkEnterStat",
+    "operations": [
+      {
+        "name": "/getChildParkEnterStatQry",
+        "label": "어린이대공원 입장객 현황정보 조회 서비스",
+        "operationId": "getChildParkEnterStatQry",
+        "params": [],
+        "fields": [
+          {
+            "name": "entercount",
+            "desc": "입장객수(명)"
+          },
+          {
+            "name": "inoutdoorcode",
+            "desc": "입장문"
+          },
+          {
+            "name": "processdate",
+            "desc": "날짜"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558840",
+    "testCode": null
+  },
+  {
+    "pk": "15158768",
+    "title": "서울시설공단_서울어린이대공원 행사 정보_GW",
+    "desc": "서울시 능동에 위치한 서울어린이대공원은 53만여㎡의 넓은 공간 속에 동물원, 식물원,놀이동산 및 다양한 공연시설과 체험공간이 가득한어린이가족테마공원으로, 사계절 내내 다양한 연간",
+    "org": "서울시설공단",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/B553774/ChildParkEventInfo",
+    "operations": [
+      {
+        "name": "/getChildParkEventInfoQry",
+        "label": "어린이대공원행사정보 조회 서비스",
+        "operationId": "getChildParkEventInfoQry",
+        "params": [],
+        "fields": [
+          {
+            "name": "endDate",
+            "desc": "행사 종료일자"
+          },
+          {
+            "name": "subject",
+            "desc": "진행중인 행사명"
+          },
+          {
+            "name": "startDate",
+            "desc": "행사 시작일자"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558841",
+    "testCode": null
+  },
+  {
+    "pk": "15158616",
+    "title": "서울시설공단_어린이대공원 일별 입장객 인원 정보_GW",
+    "desc": "서울시설공단어린이대공원 일별 입장객 인원 정보 조회 서비스를 제공합니다. 일자별 ,어린이대공원 특정 위치에 입장객 입장 정보를 제공합니다.",
+    "org": "서울시설공단",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/B553774/EnterCount",
+    "operations": [
+      {
+        "name": "/getEnterCountQry",
+        "label": "어린이대공원 일별 입장객 인원 정보 조회 서비스",
+        "operationId": "getEnterCountQry",
+        "params": [],
+        "fields": [
+          {
+            "name": "processdate",
+            "desc": "일자"
+          },
+          {
+            "name": "locagioncd",
+            "desc": "위치구분"
+          },
+          {
+            "name": "entercd",
+            "desc": "입장객구분"
+          },
+          {
+            "name": "entercnt",
+            "desc": "입장객수"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558843",
+    "testCode": null
+  },
+  {
+    "pk": "15110522",
+    "title": "대구광역시 서구_어린이기호식품 우수판매업소 현황",
+    "desc": "입력 파라미터를 이용하여 대구광역시 서구_어린이기호식품 우수판매업소 현황의 등록번호, 업소 명, 도로명주소, 연락처 항목을 제공하는 서비스 [법령명]어린이식생활안전관리 특별법 시행규칙",
+    "org": "대구광역시 서구",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/3430000/childrensFavoriteFoodVendorService",
+    "operations": [
+      {
+        "name": "/getChildrensFavoriteFoodVendor",
+        "label": "대구광역시 서구_어린이기호식품 우수판매업소 현황 데이터 조회",
+        "operationId": "getChildrensFavoriteFoodVendor",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558844",
+    "testCode": null
+  },
+  {
+    "pk": "15164274",
+    "title": "부산광역시_다함께돌봄센터 정보",
+    "desc": "부산광역시 내 다함께돌봄센터의 운영 및 이용 관련 정보를 제공하는 데이터입니다.",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/CareCenterService",
+    "operations": [
+      {
+        "name": "/getCareCenter",
+        "label": "부산 다함께돌봄센터 정보",
+        "operationId": "getCareCenter",
+        "params": [],
+        "fields": [
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "stdgNm",
+            "desc": "법정동명"
+          },
+          {
+            "name": "dongNm",
+            "desc": "행정동명"
+          },
+          {
+            "name": "instNm",
+            "desc": "기관명"
+          },
+          {
+            "name": "instAddr",
+            "desc": "기관주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "operDowkNm",
+            "desc": "운영요일명"
+          },
+          {
+            "name": "dyoffDayNm",
+            "desc": "휴무일명"
+          },
+          {
+            "name": "smstrBgng",
+            "desc": "학기시작"
+          },
+          {
+            "name": "smstrEnd",
+            "desc": "학기종료"
+          },
+          {
+            "name": "vctnBgng",
+            "desc": "방학시작"
+          },
+          {
+            "name": "vctnEnd",
+            "desc": "방학종료"
+          },
+          {
+            "name": "utztnTrgtNm",
+            "desc": "이용대상명"
+          },
+          {
+            "name": "utztnCrgAdiInfoCn",
+            "desc": "이용요금부가정보내용"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558845",
+    "testCode": null
+  },
+  {
+    "pk": "15164264",
+    "title": "부산광역시_지역아동센터정보",
+    "desc": "부산광역시 내지역아동센터의 운영 및 이용 관련 정보를 제공하는 데이터입니다.",
+    "org": "부산광역시",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/6260000/ChildCenterService",
+    "operations": [
+      {
+        "name": "/getChildCenter",
+        "label": "부산 지역아동센터 정보",
+        "operationId": "getChildCenter",
+        "params": [],
+        "fields": [
+          {
+            "name": "sggNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "stdgNm",
+            "desc": "법정동명"
+          },
+          {
+            "name": "dongNm",
+            "desc": "행정동명"
+          },
+          {
+            "name": "instNm",
+            "desc": "기관명"
+          },
+          {
+            "name": "instAddr",
+            "desc": "기관주소"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "operDowkNm",
+            "desc": "운영요일명"
+          },
+          {
+            "name": "dyoffDayNm",
+            "desc": "휴무일명"
+          },
+          {
+            "name": "smstrBgng",
+            "desc": "학기시작"
+          },
+          {
+            "name": "smstrEnd",
+            "desc": "학기종료"
+          },
+          {
+            "name": "vctnBgng",
+            "desc": "방학시작"
+          },
+          {
+            "name": "vctnEnd",
+            "desc": "방학종료"
+          },
+          {
+            "name": "utztnTrgtNm",
+            "desc": "이용대상명"
+          },
+          {
+            "name": "utztnCrgAdiInfoCn",
+            "desc": "이용요금부가정보내용"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558847",
+    "testCode": null
+  },
+  {
+    "pk": "15001698",
+    "title": "건강보험심사평가원_병원정보서비스",
+    "desc": "",
+    "org": "건강보험심사평가원",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/B551182/hospInfoServicev2",
+    "operations": [
+      {
+        "name": "/getHospBasisList",
+        "label": "병원기본목록",
+        "operationId": "getHospBasisList",
+        "params": [],
+        "fields": [
+          {
+            "name": "detyGdrCnt",
+            "desc": "치과일반의 인원수"
+          },
+          {
+            "name": "detyIntnCnt",
+            "desc": "치과인턴 인원수"
+          },
+          {
+            "name": "detyResdntCnt",
+            "desc": "치과레지던트 인원수"
+          },
+          {
+            "name": "detySdrCnt",
+            "desc": "치과전문의 인원수"
+          },
+          {
+            "name": "cmdcResdntCnt",
+            "desc": "한방레지던트 인원수"
+          },
+          {
+            "name": "cmdcSdrCnt",
+            "desc": "한방전문의 인원수"
+          },
+          {
+            "name": "pnursCnt",
+            "desc": "조산사 인원수"
+          },
+          {
+            "name": "XPos",
+            "desc": "x좌표"
+          },
+          {
+            "name": "YPos",
+            "desc": "y좌표"
+          },
+          {
+            "name": "distance",
+            "desc": "거리"
+          },
+          {
+            "name": "cmdcGdrCnt",
+            "desc": "한방일반의 인원수"
+          },
+          {
+            "name": "cmdcIntnCnt",
+            "desc": "한방인턴 인원수"
+          },
+          {
+            "name": "mdeptResdntCnt",
+            "desc": "의과레지던트 인원수"
+          },
+          {
+            "name": "drTotCnt",
+            "desc": "의사총수"
+          },
+          {
+            "name": "mdeptGdrCnt",
+            "desc": "의과일반의 인원수"
+          },
+          {
+            "name": "mdeptIntnCnt",
+            "desc": "의과인턴 인원수"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "hospUrl",
+            "desc": "홈페이지"
+          },
+          {
+            "name": "estbDd",
+            "desc": "개설일자"
+          },
+          {
+            "name": "sgguCdNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "emdongNm",
+            "desc": "읍면동명"
+          },
+          {
+            "name": "postNo",
+            "desc": "우편번호"
+          },
+          {
+            "name": "addr",
+            "desc": "주소"
+          },
+          {
+            "name": "sidoCdNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "sgguCd",
+            "desc": "시군구코드"
+          },
+          {
+            "name": "ykiho",
+            "desc": "암호화된 요양기호"
+          },
+          {
+            "name": "yadmNm",
+            "desc": "병원명"
+          },
+          {
+            "name": "clCd",
+            "desc": "종별코드"
+          },
+          {
+            "name": "clCdNm",
+            "desc": "종별코드명"
+          },
+          {
+            "name": "sidoCd",
+            "desc": "시도코드"
+          },
+          {
+            "name": "mdeptSdrCnt",
+            "desc": "의과전문의 인원수"
+          }
+        ]
+      }
+    ],
+    "applied": "already",
+    "applyKey": null,
+    "testCode": null,
+    "note": "alert: 이미 신청 된 데이터입니다 (already requested previously)"
+  },
+  {
+    "pk": "15001699",
+    "title": "건강보험심사평가원_의료기관별상세정보서비스",
+    "desc": "",
+    "org": "건강보험심사평가원",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/B551182/MadmDtlInfoService2.8",
+    "operations": [
+      {
+        "name": "/getEqpInfo2.8",
+        "label": "시설정보",
+        "operationId": "getEqpInfo2.8",
+        "params": [],
+        "fields": [
+          {
+            "name": "sgguCd",
+            "desc": "시군구코드"
+          },
+          {
+            "name": "sgguCdNm",
+            "desc": "시군구명"
+          },
+          {
+            "name": "emdongNm",
+            "desc": "읍면동명"
+          },
+          {
+            "name": "orgTyCdNm",
+            "desc": "설립 구분명"
+          },
+          {
+            "name": "sidoCd",
+            "desc": "시도코드"
+          },
+          {
+            "name": "sidoCdNm",
+            "desc": "시도명"
+          },
+          {
+            "name": "permSbdCnt",
+            "desc": "허가병상수"
+          },
+          {
+            "name": "chldSprmCnt",
+            "desc": "소아중환자병상수"
+          },
+          {
+            "name": "psydeptClsHigSbdCnt",
+            "desc": "정신과폐쇄상급병상수"
+          },
+          {
+            "name": "psydeptClsGnlSbdCnt",
+            "desc": "정신과폐쇄일반병상수"
+          },
+          {
+            "name": "psydeptOpenHigSbdCnt",
+            "desc": "정신과개방상급병상수"
+          },
+          {
+            "name": "psydeptOpenGnlSbdCnt",
+            "desc": "정신과개방일반병상수"
+          },
+          {
+            "name": "postNo",
+            "desc": "우편번호"
+          },
+          {
+            "name": "addr",
+            "desc": "주소"
+          },
+          {
+            "name": "clCd",
+            "desc": "종별 코드"
+          },
+          {
+            "name": "telno",
+            "desc": "전화번호"
+          },
+          {
+            "name": "hghrSickbdCnt",
+            "desc": "일반입원실상급병상수"
+          },
+          {
+            "name": "stdSickbdCnt",
+            "desc": "일반입원실일반병상수"
+          },
+          {
+            "name": "aduChldSprmCnt",
+            "desc": "성인중환자병상수"
+          },
+          {
+            "name": "nbySprmCnt",
+            "desc": "신생아중환자병상수"
+          },
+          {
+            "name": "partumCnt",
+            "desc": "분만실병상수"
+          },
+          {
+            "name": "soprmCnt",
+            "desc": "수술실병상수"
+          },
+          {
+            "name": "emymCnt",
+            "desc": "응급실병상수"
+          },
+          {
+            "name": "ptrmCnt",
+            "desc": "물리치료실병상수"
+          },
+          {
+            "name": "hospUrl",
+            "desc": "홈페이지"
+          },
+          {
+            "name": "orgTyCd",
+            "desc": "설립 구분"
+          },
+          {
+            "name": "estbDd",
+            "desc": "개설일자"
+          },
+          {
+            "name": "clCdNm",
+            "desc": "종별 코드명"
+          },
+          {
+            "name": "yadmNm",
+            "desc": "병원명"
+          },
+          {
+            "name": "isnrSbdCnt",
+            "desc": "격리실병상수"
+          },
+          {
+            "name": "anvirTrrmSbdCnt",
+            "desc": "무균치료실병상수"
+          },
+          {
+            "name": "dtrmSbdCnt",
+            "desc": "임종실"
+          }
+        ]
+      },
+      {
+        "name": "/getSpclDiagInfo2.8",
+        "label": "특수진료정보(진료가능분야조회)",
+        "operationId": "getSpclDiagInfo2.8",
+        "params": [],
+        "fields": [
+          {
+            "name": "srchCdNm",
+            "desc": "구분 코드명"
+          },
+          {
+            "name": "srchCd",
+            "desc": "구분 코드"
+          }
+        ]
+      },
+      {
+        "name": "/getTrnsprtInfo2.8",
+        "label": "교통정보",
+        "operationId": "getTrnsprtInfo2.8",
+        "params": [],
+        "fields": [
+          {
+            "name": "trafNm",
+            "desc": "교통편"
+          },
+          {
+            "name": "arivPlc",
+            "desc": "하차지점"
+          },
+          {
+            "name": "dir",
+            "desc": "방향"
+          },
+          {
+            "name": "dist",
+            "desc": "거리"
+          },
+          {
+            "name": "rmk",
+            "desc": "비고"
+          },
+          {
+            "name": "lineNo",
+            "desc": "노선번호"
+          }
+        ]
+      },
+      {
+        "name": "/getDtlInfo2.8",
+        "label": "세부정보",
+        "operationId": "getDtlInfo2.8",
+        "params": [],
+        "fields": [
+          {
+            "name": "plcDir",
+            "desc": "공공건물(장소) 방향"
+          },
+          {
+            "name": "trmtSunEnd",
+            "desc": "진료종료시간_일요일"
+          },
+          {
+            "name": "rcvSat",
+            "desc": "접수시간_토요일"
+          },
+          {
+            "name": "trmtSunStart",
+            "desc": "진료시작시간_일요일"
+          },
+          {
+            "name": "emyNgtTelNo1",
+            "desc": "야간 응급실 전화번호 1"
+          },
+          {
+            "name": "emyNgtTelNo2",
+            "desc": "야간 응급실 전화번호 2"
+          },
+          {
+            "name": "lunchWeek",
+            "desc": "월~금 점심시간"
+          },
+          {
+            "name": "trmtWedStart",
+            "desc": "진료시작시간_수요일"
+          },
+          {
+            "name": "trmtWedEnd",
+            "desc": "진료종료시간_수요일"
+          },
+          {
+            "name": "trmtThuStart",
+            "desc": "진료시작시간_목요일"
+          },
+          {
+            "name": "trmtMonStart",
+            "desc": "진료시작시간_월요일"
+          },
+          {
+            "name": "trmtMonEnd",
+            "desc": "진료종료시간_월요일"
+          },
+          {
+            "name": "trmtTueStart",
+            "desc": "진료시작시간_화요일"
+          },
+          {
+            "name": "trmtTueEnd",
+            "desc": "진료종료시간_화요일"
+          },
+          {
+            "name": "lunchSat",
+            "desc": "점심시간_토요일"
+          },
+          {
+            "name": "rcvWeek",
+            "desc": "접수시간_평일"
+          },
+          {
+            "name": "trmtSatStart",
+            "desc": "진료시작시간_토요일"
+          },
+          {
+            "name": "trmtSatEnd",
+            "desc": "진료종료시간_토요일"
+          },
+          {
+            "name": "plcNm",
+            "desc": "공공건물(장소) 이름"
+          },
+          {
+            "name": "parkXpnsYn",
+            "desc": "주차장 운영여부, 주차비용 부담여부"
+          },
+          {
+            "name": "parkEtc",
+            "desc": "기타 안내사항"
+          },
+          {
+            "name": "noTrmtSun",
+            "desc": "일요일 휴진 안내"
+          },
+          {
+            "name": "noTrmtHoli",
+            "desc": "공휴일 휴진 안내"
+          },
+          {
+            "name": "emyDayYn",
+            "desc": "주간 응급실 운영여부"
+          },
+          {
+            "name": "emyDayTelNo1",
+            "desc": "주간 응급실 전화번호 1"
+          },
+          {
+            "name": "emyDayTelNo2",
+            "desc": "주간 응급실 전화번호 1"
+          },
+          {
+            "name": "emyNgtYn",
+            "desc": "야간 응급실 운영여부"
+          },
+          {
+            "name": "trmtThuEnd",
+            "desc": "진료종료시간_목요일"
+          },
+          {
+            "name": "trmtFriStart",
+            "desc": "진료시작시간_금요일"
+          },
+          {
+            "name": "trmtFriEnd",
+            "desc": "진료종료시간_금요일"
+          },
+          {
+            "name": "plcDist",
+            "desc": "공공건물(장소) 거리"
+          },
+          {
+            "name": "parkQty",
+            "desc": "주차 가능대수"
+          }
+        ]
+      },
+      {
+        "name": "/getSpcSbjtSdrInfo2.8",
+        "label": "전문과목별 전문의 수",
+        "operationId": "getSpcSbjtSdrInfo2.8",
+        "params": [],
+        "fields": [
+          {
+            "name": "dtlSdrCnt",
+            "desc": "전문의수"
+          },
+          {
+            "name": "dgsbjtCd",
+            "desc": "진료과목코드"
+          },
+          {
+            "name": "dgsbjtCdNm",
+            "desc": "진료과목코드명"
+          }
+        ]
+      },
+      {
+        "name": "/getDgsbjtInfo2.8",
+        "label": "진료과목정보",
+        "operationId": "getDgsbjtInfo2.8",
+        "params": [],
+        "fields": [
+          {
+            "name": "cdiagDrCnt",
+            "desc": "선택진료의사수"
+          },
+          {
+            "name": "dgsbjtCd",
+            "desc": "진료과목코드"
+          },
+          {
+            "name": "dgsbjtCdNm",
+            "desc": "진료과목코드명"
+          },
+          {
+            "name": "dgsbjtPrSdrCnt",
+            "desc": "의사수"
+          }
+        ]
+      },
+      {
+        "name": "/getMedOftInfo2.8",
+        "label": "의료장비정보",
+        "operationId": "getMedOftInfo2.8",
+        "params": [],
+        "fields": [
+          {
+            "name": "oftCnt",
+            "desc": "보유대수"
+          },
+          {
+            "name": "oftCd",
+            "desc": "장비코드"
+          },
+          {
+            "name": "oftCdNm",
+            "desc": "장비명"
+          }
+        ]
+      },
+      {
+        "name": "/getFoepAddcInfo2.8",
+        "label": "식대가산정보",
+        "operationId": "getFoepAddcInfo2.8",
+        "params": [],
+        "fields": [
+          {
+            "name": "tyCd",
+            "desc": "구분 코드"
+          },
+          {
+            "name": "trmealGrd",
+            "desc": "등급"
+          },
+          {
+            "name": "tyCdNm",
+            "desc": "구분 코드명"
+          },
+          {
+            "name": "gnmAddcYn",
+            "desc": "일반식 가산 적용여부"
+          },
+          {
+            "name": "calcNopCnt",
+            "desc": "인원수"
+          }
+        ]
+      },
+      {
+        "name": "/getNursigGrdInfo2.8",
+        "label": "간호등급정보",
+        "operationId": "getNursigGrdInfo2.8",
+        "params": [],
+        "fields": [
+          {
+            "name": "careGrd",
+            "desc": "간호등급"
+          },
+          {
+            "name": "tyCd",
+            "desc": "구분 코드"
+          },
+          {
+            "name": "tyCdNm",
+            "desc": "구분 코드명"
+          }
+        ]
+      },
+      {
+        "name": "/getSpclHospAsgFldList2.8",
+        "label": "전문병원지정분야",
+        "operationId": "getSpclHospAsgFldList2.8",
+        "params": [],
+        "fields": [
+          {
+            "name": "srchCdNm",
+            "desc": "구분 코드명"
+          },
+          {
+            "name": "srchCd",
+            "desc": "구분 코드"
+          }
+        ]
+      },
+      {
+        "name": "/getEtcHstInfo2.8",
+        "label": "기타인력수",
+        "operationId": "getEtcHstInfo2.8",
+        "params": [],
+        "fields": [
+          {
+            "name": "gnlNopCnt",
+            "desc": "기타인력수"
+          },
+          {
+            "name": "ykiho",
+            "desc": "암호화 요양기호"
+          },
+          {
+            "name": "yadmNm",
+            "desc": "요양기관명"
+          },
+          {
+            "name": "gnlNopDtlCd",
+            "desc": "기타인력코드"
+          },
+          {
+            "name": "dtlGnlNopCdNm",
+            "desc": "기타인력코드명"
+          }
+        ]
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558849",
+    "testCode": null
+  },
+  {
+    "pk": "15000736",
+    "title": "국립중앙의료원_전국 병·의원찾기서비스",
+    "desc": "",
+    "org": "국립중앙의료원",
+    "type": "OPENAPI",
+    "endpoint": "apis.data.go.kr/B552657/HsptlAsembySearchService",
+    "operations": [
+      {
+        "name": "/getHsptlMdcncListInfoInqire",
+        "label": "전국 병의원 찾기 정보조회",
+        "operationId": "getHsptlMdcncListInfoInqire",
+        "params": [],
+        "fields": []
+      }
+    ],
+    "applied": true,
+    "applyKey": "0126558850",
+    "testCode": null
+  }
+]

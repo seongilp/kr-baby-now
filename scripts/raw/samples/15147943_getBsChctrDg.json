@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "54",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "동구",
+            "chctrNm": "GKL행복어린이집",
+            "chctrTypeNm": "직장",
+            "operYn": "Y",
+            "zip": "48748",
+            "dtlAddr": "부산광역시 동구 자성로 134 (범일동, 눌원빌딩)",
+            "telno": "051-647-9551",
+            "fxno": "051-647-9552",
+            "hopgUrlAddr": "www.puruni.com/gklb",
+            "careRoomCnt": "4",
+            "careRoomArea": "167",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "9",
+            "nturEduStaffCnt": "8",
+            "pscpCnt": "49",
+            "cnppCnt": "9",
+            "fcltLat": "35.136575918",
+            "fcltLot": "129.0650802808",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20151224",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "동구",
+            "chctrNm": "IBK 참 좋은 어린이집",
+            "chctrTypeNm": "직장",
+            "operYn": "Y",
+            "zip": "48723",
+            "dtlAddr": "부산광역시 동구 중앙대로 489 (범일동)",
+            "telno": "051-633-3800",
+            "fxno": "051-634-3700",
+            "hopgUrlAddr": "https://www.ibkkids.net/",
+            "careRoomCnt": "4",
+            "careRoomArea": "184",
+            "plgndCnt": "1",
+            "cctvInstlCnt": "20",
+            "nturEduStaffCnt": "7",
+            "pscpCnt": "40",
+            "cnppCnt": "9",
+            "fcltLat": "35.1369521975",
+            "fcltLot": "129.0561692295",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20130412",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "동구",
+            "chctrNm": "KT부산 꿈나무어린이집",
+            "chctrTypeNm": "직장",
+            "operYn": "N",
+            "zip": "48745",
+            "dtlAddr": "부산광역시 동구 자성공원로 23 (범일동)KT부산정보통신센터 1층",
+            "telno": "051-638-9700",
+            "fxno": "051-638-9600",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "4",
+            "careRoomArea": "101",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "5",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "35",
+            "cnppCnt": "20",
+            "fcltLat": "35.13511734",
+            "fcltLot": "129.0598992",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20080228",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

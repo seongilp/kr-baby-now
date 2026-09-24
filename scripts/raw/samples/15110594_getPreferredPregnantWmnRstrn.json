@@ -1,0 +1,38 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL_SERVICE"
+    },
+    "body": {
+      "pageNo": 3,
+      "totalCount": 76,
+      "items": {
+        "item": [
+          {
+            "REG_NO": 1,
+            "ENTRPS_NM": "가원식당",
+            "ADRES": "대구광역시 동구 팔공산로199길 6-3, 1층",
+            "TELNO": "053-814-0640",
+            "MAIN_FD": "능이닭백숙,능이오리백숙"
+          },
+          {
+            "REG_NO": 2,
+            "ENTRPS_NM": "고와식당고와식당",
+            "ADRES": "대구광역시 동구 파계로595",
+            "TELNO": "053-981-1238",
+            "MAIN_FD": "현미채식, 간장게장"
+          },
+          {
+            "REG_NO": 3,
+            "ENTRPS_NM": "공주네속초생선찜",
+            "ADRES": "대구광역시 동구 신암남로15길 70",
+            "TELNO": "053-951-8989",
+            "MAIN_FD": "모듬회,생선초밥"
+          }
+        ]
+      },
+      "numOfRows": 1
+    }
+  }
+}

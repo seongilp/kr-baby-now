@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "170",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "사상구",
+            "chctrNm": "대한영재어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "N",
+            "zip": "47041",
+            "dtlAddr": "부산광역시 사상구 엄궁로179번길 90 대한영재어린이집",
+            "telno": "051-328-7747",
+            "fxno": "051-328-7731",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "6",
+            "careRoomArea": "108",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "8",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "45",
+            "cnppCnt": "0",
+            "fcltLat": "35.12604495",
+            "fcltLot": "128.9723681",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "20020802",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "사상구",
+            "chctrNm": "대한영재어린이집",
+            "chctrTypeNm": "국공립",
+            "operYn": "N",
+            "zip": "47041",
+            "dtlAddr": "부산광역시 사상구 엄궁로179번길 90 (엄궁동)",
+            "telno": "051-328-7747",
+            "fxno": "051-328-7731",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "6",
+            "careRoomArea": "124",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "10",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "42",
+            "cnppCnt": "0",
+            "fcltLat": "35.1259862646",
+            "fcltLot": "128.9723838595",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "20200303",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "사상구",
+            "chctrNm": "덕상어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "Y",
+            "zip": "46939",
+            "dtlAddr": "부산광역시 사상구 백양대로768번길 33 (덕포동)",
+            "telno": "051-303-5232",
+            "fxno": "051-303-5237",
+            "hopgUrlAddr": "키즈노트",
+            "careRoomCnt": "5",
+            "careRoomArea": "122",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "6",
+            "nturEduStaffCnt": "7",
+            "pscpCnt": "46",
+            "cnppCnt": "19",
+            "fcltLat": "35.175308",
+            "fcltLot": "128.9905074",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "20030709",
+            "pvsnSrvcNm": "영아전담",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

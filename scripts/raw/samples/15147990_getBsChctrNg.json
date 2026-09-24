@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "187",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "남구",
+            "chctrNm": "(공립)대연자이어린이집",
+            "chctrTypeNm": "국공립",
+            "operYn": "Y",
+            "zip": "48530",
+            "dtlAddr": "부산광역시 남구 유엔로 246 대연자이아파트 108동 1층",
+            "telno": "051-626-2050",
+            "fxno": "051-622-2050",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "3",
+            "careRoomArea": "74",
+            "plgndCnt": "2",
+            "cctvInstlCnt": "7",
+            "nturEduStaffCnt": "12",
+            "pscpCnt": "28",
+            "cnppCnt": "28",
+            "fcltLat": "35.1299525193",
+            "fcltLot": "129.1035685304",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20200518",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "남구",
+            "chctrNm": "(공립)대연푸르지오클라센트어린이집",
+            "chctrTypeNm": "국공립",
+            "operYn": "Y",
+            "zip": "48472",
+            "dtlAddr": "부산광역시 남구 유엔로 81 (공립)대연푸르지오클라센트어린이집",
+            "telno": "051-628-0628",
+            "fxno": null,
+            "hopgUrlAddr": null,
+            "careRoomCnt": "4",
+            "careRoomArea": "166",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "6",
+            "nturEduStaffCnt": "13",
+            "pscpCnt": "42",
+            "cnppCnt": "40",
+            "fcltLat": "35.1290557829",
+            "fcltLot": "129.0850680446",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20240108",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "남구",
+            "chctrNm": "(공립)더비치푸르지오써밋어린이집",
+            "chctrTypeNm": "국공립",
+            "operYn": "Y",
+            "zip": "48514",
+            "dtlAddr": "부산광역시 남구 황령대로 504 (공립)더비치푸르지오써밋어린이집",
+            "telno": "051-624-5400",
+            "fxno": "051-624-5401",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "5",
+            "careRoomArea": "184",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "14",
+            "nturEduStaffCnt": "16",
+            "pscpCnt": "55",
+            "cnppCnt": "55",
+            "fcltLat": "35.1361117573",
+            "fcltLot": "129.1090200416",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20240307",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

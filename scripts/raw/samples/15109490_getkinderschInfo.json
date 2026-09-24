@@ -1,0 +1,40 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "C00",
+      "resultMsg": "NORMAL SERVICE"
+    },
+    "body": {
+      "totalCount": 268,
+      "items": [
+        {
+          "kndrgrNm": "세명유치원",
+          "signgu": "서구",
+          "locplc": "서구 청사서로 11",
+          "zip": "35219",
+          "telno": "489-5673",
+          "lxtnNo": "-",
+          "fxnum": "489-5692"
+        },
+        {
+          "kndrgrNm": "행복한유치원",
+          "signgu": "서구",
+          "locplc": "서구 복수서로 10",
+          "zip": "35404",
+          "telno": "581-7524",
+          "lxtnNo": "-",
+          "fxnum": "334-7524"
+        },
+        {
+          "kndrgrNm": "보람유치원",
+          "signgu": "중구",
+          "locplc": "중구 계백로1615번길 34",
+          "zip": "34899",
+          "telno": "524-3261",
+          "lxtnNo": "-",
+          "fxnum": "524-4578"
+        }
+      ]
+    }
+  }
+}

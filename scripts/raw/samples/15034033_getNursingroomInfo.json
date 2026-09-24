@@ -1,0 +1,56 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "308",
+      "items": {
+        "item": [
+          {
+            "sj": "영도구보건소",
+            "tel": "051-419-4889",
+            "place": "구관 출입구 근처",
+            "lat": "35.09121408",
+            "lng": "129.0679144",
+            "sido": "부산",
+            "sigungu": "영도구",
+            "address": "부산 영도구 태종로 423",
+            "target": "외부인",
+            "father": "가능",
+            "confirm_date": "2020-12-31"
+          },
+          {
+            "sj": "영도구청",
+            "tel": "051-419-4262",
+            "place": "구청 1층",
+            "lat": "35.09121408",
+            "lng": "129.0679144",
+            "sido": "부산",
+            "sigungu": "영도구",
+            "address": "부산 영도구 태종로 423",
+            "target": "외부인",
+            "father": "가능",
+            "confirm_date": "2020-12-31"
+          },
+          {
+            "sj": "영도도서관",
+            "tel": "051-419-4835",
+            "place": "1층 어린이자료실 내",
+            "lat": "35.07526852",
+            "lng": "129.0668621",
+            "sido": "부산",
+            "sigungu": "영도구",
+            "address": "부산 영도구 함지로79번길 6",
+            "target": "외부인",
+            "father": "가능",
+            "confirm_date": "2020-12-31"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

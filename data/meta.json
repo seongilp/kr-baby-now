@@ -1,0 +1,100 @@
+{
+  "idolbom":{
+    "count":232,
+    "dropped_no_coord":0,
+    "source_pk":"15078130+15078132",
+    "source_title":"한국건강가정진흥원_아이돌봄서비스제공기관 정보 서비스 + 아이돌봄광역거점기관 정보 서비스",
+    "collected_at":"2026-09-24T01:59:14Z"
+  },
+  "idolbom-fee":{
+    "count":3404,
+    "dropped_no_coord":0,
+    "source_pk":"15078134",
+    "source_title":"한국건강가정진흥원_아이돌봄서비스이용요금표 정보 서비스",
+    "collected_at":"2026-09-24T01:59:17Z"
+  },
+  "idolbom-docs":{
+    "count":28,
+    "dropped_no_coord":0,
+    "source_pk":"15078149",
+    "source_title":"한국건강가정진흥원_아이돌봄정부지원 자격여부 입증서류 및 확인방법 정보 서비스",
+    "collected_at":"2026-09-24T01:59:17Z"
+  },
+  "postnatal":{
+    "count":452,
+    "dropped_no_coord":27,
+    "source_pk":"15154981",
+    "source_title":"행정안전부_건강_산후조리업 조회서비스",
+    "collected_at":"2026-09-24T02:03:00Z"
+  },
+  "busan-daycare":{
+    "count":1280,
+    "dropped_no_coord":0,
+    "source_pk":"15147779+15147936+15147943+15147946+15147948+15147966+15147990+15147995+15148121+15148252+15148259+15148262+15148268+15148269+15148276+15148277",
+    "source_title":"부산광역시 16개 구·군 어린이집 현황 (구별 API 병합)",
+    "collected_at":"2026-09-24T02:03:10Z"
+  },
+  "busan-nursing":{
+    "count":308,
+    "dropped_no_coord":0,
+    "source_pk":"15034033",
+    "source_title":"부산광역시_수유실 보유 시설 현황",
+    "collected_at":"2026-09-24T02:03:10Z"
+  },
+  "busan-kidscafe":{
+    "count":88,
+    "dropped_no_coord":0,
+    "source_pk":"15088938",
+    "source_title":"부산광역시_키즈카페현황",
+    "collected_at":"2026-09-24T02:03:10Z"
+  },
+  "busan-postnatal":{
+    "count":0,
+    "dropped_no_coord":0,
+    "source_pk":"15088928",
+    "source_title":"부산광역시_산후조리원 현황 (merged into postnatal layer, no separate file)",
+    "collected_at":"2026-09-24T02:03:10Z"
+  },
+  "busan-birth-grant":{
+    "count":82,
+    "dropped_no_coord":0,
+    "source_pk":"15114191",
+    "source_title":"부산광역시_출산지원금 현황",
+    "collected_at":"2026-09-24T02:03:10Z"
+  },
+  "vaccine":{
+    "count":11398,
+    "dropped_no_coord":0,
+    "source_pk":"15084303",
+    "source_title":"질병관리청_어린이 국가예방접종지원사업 위탁의료기관 현황 정보",
+    "collected_at":"2026-09-24T02:16:49Z"
+  },
+  "peds":{
+    "count":15170,
+    "dropped_no_coord":0,
+    "source_pk":"15000736",
+    "source_title":"국립중앙의료원_전국 병·의원찾기서비스 (QD=D002 소아청소년과)",
+    "collected_at":"2026-09-24T02:12:19Z"
+  },
+  "obgyn":{
+    "count":4139,
+    "dropped_no_coord":0,
+    "source_pk":"15000736",
+    "source_title":"국립중앙의료원_전국 병·의원찾기서비스 (QD=D011 산부인과)",
+    "collected_at":"2026-09-24T02:12:21Z"
+  },
+  "playground":{
+    "count":13208,
+    "dropped_no_coord":22,
+    "source_pk":"15124519",
+    "source_title":"행정안전부_전국어린이놀이시설정보서비스",
+    "collected_at":"2026-09-24T02:15:45Z"
+  },
+  "indoor-play":{
+    "count":3342,
+    "dropped_no_coord":3,
+    "source_pk":"15124519",
+    "source_title":"행정안전부_전국어린이놀이시설정보서비스",
+    "collected_at":"2026-09-24T02:15:45Z"
+  }
+}

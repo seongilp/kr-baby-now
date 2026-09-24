@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "66",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "영도구",
+            "chctrNm": "고신대학교부설어린이집",
+            "chctrTypeNm": "법인·단체등",
+            "operYn": "Y",
+            "zip": "49104",
+            "dtlAddr": "부산광역시 영도구 와치로 194 (동삼동)",
+            "telno": "051-404-4360",
+            "fxno": "051-404-4360",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "4",
+            "careRoomArea": "337",
+            "plgndCnt": "1",
+            "cctvInstlCnt": "6",
+            "nturEduStaffCnt": "12",
+            "pscpCnt": "78",
+            "cnppCnt": "64",
+            "fcltLat": "35.0811073203",
+            "fcltLot": "129.0633301083",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "19960216",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "영도구",
+            "chctrNm": "까꿍영재어린이집",
+            "chctrTypeNm": "가정",
+            "operYn": "N",
+            "zip": "49110",
+            "dtlAddr": "부산광역시 영도구 태종로 705 102동 102호(동삼동, 유림노르웨이숲비치)",
+            "telno": "051-403-2190",
+            "fxno": "051-403-2190",
+            "hopgUrlAddr": "cafe.daum.net/kkakkung2190",
+            "careRoomCnt": "3",
+            "careRoomArea": "61",
+            "plgndCnt": "2",
+            "cctvInstlCnt": "4",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "18",
+            "cnppCnt": "0",
+            "fcltLat": "35.07146807",
+            "fcltLot": "129.0650434",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "19971107",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "영도구",
+            "chctrNm": "꿈동산어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "N",
+            "zip": null,
+            "dtlAddr": "부산광역시 영도구 동삼로 85-9",
+            "telno": "051-405-0102",
+            "fxno": "000-0000-0000",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "12",
+            "careRoomArea": "221",
+            "plgndCnt": "2",
+            "cctvInstlCnt": "16",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "83",
+            "cnppCnt": "0",
+            "fcltLat": "35.08096895",
+            "fcltLot": "129.0703503",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "20031010",
+            "pvsnSrvcNm": "야간연장형",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

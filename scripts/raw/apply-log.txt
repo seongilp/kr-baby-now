@@ -1,0 +1,114 @@
+--- 15110594 대구광역시 동구_임산부우대 음식점 현황
+    applied OK key=0126558699
+--- 15154981 행정안전부_건강_산후조리업 조회서비스
+    applied OK key=0126558700
+--- 15034033 부산광역시_수유실 보유 시설 현황
+    swagger parse error: {'_parse_error': 'Expecting value: line 1 column 1 (char 0)', '_raw_len': 0}
+    applied OK key=0126558701
+--- 15114191 부산광역시_출산지원금 현황
+    applied OK key=0126558702
+--- 15088928 부산광역시_산후조리원 현황
+    swagger parse error: {'_parse_error': 'Expecting value: line 1 column 1 (char 0)', '_raw_len': 0}
+    applied OK key=0126558703
+--- 15156157 육아정책연구소_한국 영유아 교육·보육 패널 설문 응답 데이터 제공
+    applied OK key=0126558704
+--- 15156156 육아정책연구소_한국 아동 패널 설문 응답 데이터 제공
+    applied OK key=0126558706
+--- 15147948 부산광역시_부산진구 어린이집 현황
+    applied OK key=0126558707
+--- 15147779 부산광역시_중구 어린이집 현황
+    applied OK key=0126558708
+--- 15148276 부산광역시_사상구 어린이집 현황
+    applied OK key=0126558710
+--- 15147936 부산광역시_서구 어린이집 현황
+    applied OK key=0126558713
+--- 15148262 부산광역시_강서구 어린이집 현황
+    applied OK key=0126558714
+--- 15148252 부산광역시_사하구 어린이집 현황
+    applied OK key=0126558724
+--- 15148277 부산광역시_기장군 어린이집 현황
+    applied OK key=0126558726
+--- 15148269 부산광역시_수영구 어린이집 현황
+    applied OK key=0126558730
+--- 15147943 부산광역시_동구 어린이집 현황
+    applied OK key=0126558755
+--- 15147990 부산광역시_남구 어린이집 현황
+    applied OK key=0126558758
+--- 15147966 부산광역시_동래구 어린이집 현황
+    applied OK key=0126558760
+--- 15148259 부산광역시_금정구 어린이집 현황
+    applied OK key=0126558764
+--- 15147995 부산광역시_북구 어린이집 현황
+    applied OK key=0126558771
+--- 15148268 부산광역시_연제구 어린이집 현황
+    applied OK key=0126558813
+--- 15147946 부산광역시_영도구 어린이집 현황
+    applied OK key=0126558816
+--- 15148121 부산광역시_해운대구 어린이집 현황
+    applied OK key=0126558817
+--- 15088938 부산광역시_키즈카페현황
+    swagger parse error: {'_parse_error': 'Expecting value: line 1 column 1 (char 0)', '_raw_len': 0}
+    applied OK key=0126558818
+--- 15109490 대전광역시_유치원 정보
+    applied OK key=0126558820
+--- 3045532 전북특별자치도 전주시_어린이집현황
+    swagger parse error: {'_parse_error': 'Expecting value: line 1 column 1 (char 0)', '_raw_len': 0}
+    applied OK key=0126558821
+--- 15097863 경기도 용인시_어린이집현황 조회 서비스
+    swagger parse error: {'_parse_error': 'Expecting value: line 1 column 1 (char 0)', '_raw_len': 0}
+    applied OK key=0126558822
+--- 15096004 충청남도 계룡시_보육시설(어린이집) 현황 API
+    swagger parse error: {'_parse_error': 'Expecting value: line 1 column 1 (char 0)', '_raw_len': 0}
+    applied OK key=0126558823
+--- 15070773 부산광역시 해운대구_교육/보육기관 정보 조회 서비스
+    swagger parse error: {'_parse_error': 'Expecting value: line 1 column 1 (char 0)', '_raw_len': 0}
+    applied OK key=0126558824
+--- 15078130 한국건강가정진흥원_아이돌봄서비스제공기관 정보 서비스
+    swagger parse error: {'_parse_error': 'Expecting value: line 1 column 1 (char 0)', '_raw_len': 0}
+    applied OK key=0126558825
+--- 15078132 한국건강가정진흥원_아이돌봄광역거점기관 정보 서비스
+    swagger parse error: {'_parse_error': 'Expecting value: line 1 column 1 (char 0)', '_raw_len': 0}
+    applied OK key=0126558826
+--- 15078134 한국건강가정진흥원_아이돌봄서비스이용요금표 정보 서비스
+    swagger parse error: {'_parse_error': 'Expecting value: line 1 column 1 (char 0)', '_raw_len': 0}
+    applied OK key=0126558827
+--- 15078149 한국건강가정진흥원_아이돌봄정부지원 자격여부 입증서류 및 확인방법 정보 서비스
+    swagger parse error: {'_parse_error': 'Expecting value: line 1 column 1 (char 0)', '_raw_len': 0}
+    applied OK key=0126558828
+--- 15157814 경상북도 영천시_지역아동센터 현황
+    applied OK key=0126558829
+--- 15034023 부산광역시_구군 보건소 예방접종 정보
+    swagger parse error: {'_parse_error': 'Expecting value: line 1 column 1 (char 0)', '_raw_len': 0}
+    applied OK key=0126558830
+--- 15084303 질병관리청_어린이 국가예방접종지원사업 위탁의료기관 현황 정보
+    applied OK key=0126558831
+--- 15124519 행정안전부_전국어린이놀이시설정보서비스
+    applied OK key=0126558833
+--- 15124524 행정안전부_전국어린이놀이시설안전검사정보서비스
+    applied OK key=0126558834
+--- 15124521 행정안전부_전국어린이놀이시설기구정보서비스
+    applied OK key=0126558835
+--- 15124527 행정안전부_전국어린이놀이시설우수시설정보서비스
+    applied OK key=0126558837
+--- 15124525 행정안전부_전국어린이놀이시설보험가입정보서비스
+    applied OK key=0126558839
+--- 15158767 서울시설공단_서울어린이대공원 입장객 현황_GW
+    applied OK key=0126558840
+--- 15158768 서울시설공단_서울어린이대공원 행사 정보_GW
+    applied OK key=0126558841
+--- 15158616 서울시설공단_어린이대공원 일별 입장객 인원 정보_GW
+    applied OK key=0126558843
+--- 15110522 대구광역시 서구_어린이기호식품 우수판매업소 현황
+    applied OK key=0126558844
+--- 15164274 부산광역시_다함께돌봄센터 정보
+    applied OK key=0126558845
+--- 15164264 부산광역시_지역아동센터정보
+    applied OK key=0126558847
+--- 15001698 건강보험심사평가원_병원정보서비스
+    apply form error: no_reqForm
+--- 15001699 건강보험심사평가원_의료기관별상세정보서비스
+    applied OK key=0126558849
+--- 15000736 국립중앙의료원_전국 병·의원찾기서비스
+    swagger parse error: {'_parse_error': 'Expecting value: line 1 column 1 (char 0)', '_raw_len': 0}
+    applied OK key=0126558850
+=== DONE. total processed: 50

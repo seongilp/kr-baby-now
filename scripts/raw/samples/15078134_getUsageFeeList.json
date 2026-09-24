@@ -1,0 +1,57 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0",
+      "resultMsg": "NORMAL SERVICE"
+    },
+    "body": {
+      "resultType": "json",
+      "numOfRows": 3,
+      "totalCount": 3404,
+      "pageNo": 1,
+      "items": {
+        "item": [
+          {
+            "crtrYmd": "20190101",
+            "iftsnsIlnsChildYn": "N     ",
+            "childCareDvsnNm": "시간제",
+            "jgmtGrdeNm": "",
+            "srvcDvsfctnNm": "일반형",
+            "addtnFeeYn": "N",
+            "childCnt": 1,
+            "oselfBrdnAmt": 720,
+            "gvmtSprtAmt": 4100,
+            "e30minUseAmt": 4820,
+            "dataCrtrYmd": "20260413"
+          },
+          {
+            "crtrYmd": "20190101",
+            "iftsnsIlnsChildYn": "N     ",
+            "childCareDvsnNm": "시간제",
+            "jgmtGrdeNm": "",
+            "srvcDvsfctnNm": "일반형",
+            "addtnFeeYn": "Y",
+            "childCnt": 1,
+            "oselfBrdnAmt": 1800,
+            "gvmtSprtAmt": 5430,
+            "e30minUseAmt": 7230,
+            "dataCrtrYmd": "20260413"
+          },
+          {
+            "crtrYmd": "20190101",
+            "iftsnsIlnsChildYn": "N     ",
+            "childCareDvsnNm": "시간제",
+            "jgmtGrdeNm": "",
+            "srvcDvsfctnNm": "일반형",
+            "addtnFeeYn": "Y",
+            "childCnt": 1,
+            "oselfBrdnAmt": 1080,
+            "gvmtSprtAmt": 6150,
+            "e30minUseAmt": 7230,
+            "dataCrtrYmd": "20260413"
+          }
+        ]
+      }
+    }
+  }
+}

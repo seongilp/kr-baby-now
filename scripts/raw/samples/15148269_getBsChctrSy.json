@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "105",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "수영구",
+            "chctrNm": "신나는어린이집",
+            "chctrTypeNm": "가정",
+            "operYn": "Y",
+            "zip": "48314",
+            "dtlAddr": "부산광역시 수영구 남천바다로22번길 19 (남천동)",
+            "telno": "051-611-2706",
+            "fxno": null,
+            "hopgUrlAddr": null,
+            "careRoomCnt": "3",
+            "careRoomArea": "68",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "4",
+            "nturEduStaffCnt": "6",
+            "pscpCnt": "16",
+            "cnppCnt": "15",
+            "fcltLat": "35.14844655",
+            "fcltLot": "129.1124466",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "20000127",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "수영구",
+            "chctrNm": "쌍용예가어린이집",
+            "chctrTypeNm": "민간",
+            "operYn": "Y",
+            "zip": "48298",
+            "dtlAddr": "부산광역시 수영구 광안로 20 쌍용예가디오션 105동(관리동)",
+            "telno": "051-754-8383",
+            "fxno": "051-754-5400",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "9",
+            "careRoomArea": "213",
+            "plgndCnt": "1",
+            "cctvInstlCnt": "12",
+            "nturEduStaffCnt": "10",
+            "pscpCnt": "73",
+            "cnppCnt": "33",
+            "fcltLat": "35.1549245706",
+            "fcltLot": "129.1159245628",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20160224",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "수영구",
+            "chctrNm": "아이사랑어린이집",
+            "chctrTypeNm": "가정",
+            "operYn": "N",
+            "zip": "48224",
+            "dtlAddr": "부산광역시 수영구 수미로26번길 75 (수영동)",
+            "telno": "051-755-4943",
+            "fxno": "051-754-4943",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "3",
+            "careRoomArea": "79",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "4",
+            "nturEduStaffCnt": "0",
+            "pscpCnt": "20",
+            "cnppCnt": "0",
+            "fcltLat": "35.17161663",
+            "fcltLot": "129.11577",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20110713",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "00",
+      "resultMsg": "NORMAL SERVICE"
+    },
+    "body": {
+      "recordCountPerPage": 10,
+      "pageIndex": 1,
+      "totalPageCnt": 19,
+      "totalCnt": 183,
+      "items": [
+        {
+          "exfcSn": "1247",
+          "dsgnYmd": "20211231",
+          "pfctSn": "575193",
+          "rgnCd": "4148025000",
+          "fctyCd": "156",
+          "rgnNm": null,
+          "pfctNm": "누리성 모험놀이터",
+          "rmk": "2021년 우수어린이놀이시설 선정 : 행정안전부 공고(2021-693호)",
+          "instSn": "1",
+          "instNm": "행정안전부",
+          "latCrtsVl": "37.895884",
+          "lotCrtsVl": "126.7449964"
+        },
+        {
+          "exfcSn": "1246",
+          "dsgnYmd": "20211231",
+          "pfctSn": "576654",
+          "rgnCd": "5111039000",
+          "fctyCd": "57",
+          "rgnNm": null,
+          "pfctNm": "봄내림놀이터 1호 '잼잼'",
+          "rmk": "2021년 우수어린이놀이시설 선정 : 행정안전부 공고(2021-693호)",
+          "instSn": "1",
+          "instNm": "행정안전부",
+          "latCrtsVl": "37.8554544",
+          "lotCrtsVl": "127.7583985"
+        },
+        {
+          "exfcSn": "1243",
+          "dsgnYmd": "20211231",
+          "pfctSn": "577267",
+          "rgnCd": "4129010500",
+          "fctyCd": "20",
+          "rgnNm": null,
+          "pfctNm": "국립과천과학관 내 어린이놀이터(별난공간 과학놀이체험)",
+          "rmk": "2021년 우수어린이놀이시설 선정 : 행정안전부 공고(2021-693호)",
+          "instSn": "1",
+          "instNm": "행정안전부",
+          "latCrtsVl": "37.4382479",
+          "lotCrtsVl": "127.0057724"
+        },
+        {
+          "exfcSn": "1207",
+          "dsgnYmd": "20201231",
+          "pfctSn": "41077",
+          "rgnCd": "2823710100",
+          "fctyCd": "42",
+          "rgnNm": null,
+          "pfctNm": "부흥놀이공원 놀이터",
+          "rmk": "2020년 우수어린이놀이시설 선정 : 행정안전부 공고(2020-779호)",
+          "instSn": "1",
+          "instNm": "행정안전부",
+          "latCrtsVl": "37.4948731",
+          "lotCrtsVl": "126.7314596"
+        },
+        {
+          "exfcSn": "1206",
+          "dsgnYmd": "20201231",
+          "pfctSn": "570071",
+          "rgnCd": "4822034000",
+          "fctyCd": "85",
+          "rgnNm": null,
+          "pfctNm": "안정공원(어린이놀이시설)",
+          "rmk": "2020년 우수어린이놀이시설 선정 : 행정안전부 공고(2020-779호)",
+          "instSn": "1",
+          "instNm": "행정안전부",
+          "latCrtsVl": "34.9510586",
+          "lotCrtsVl": "128.4127963"
+        },
+        {
+          "exfcSn": "1205",
+          "dsgnYmd": "20201231",
+          "pfctSn": "569807",
+          "rgnCd": "4827035000",
+          "fctyCd": "8",
+          "rgnNm": null,
+          "pfctNm": "우리 아이 마음 숲 놀이터",
+          "rmk": "2020년 우수어린이놀이시설 선정 : 행정안전부 공고(2020-779호)",
+          "instSn": "1",
+          "instNm": "행정안전부",
+          "latCrtsVl": "35.5453",
+          "lotCrtsVl": "128.952"
+        },
+        {
+          "exfcSn": "1164",
+          "dsgnYmd": "20191231",
+          "pfctSn": "540407",
+          "rgnCd": "3611011000",
+          "fctyCd": "2",
+          "rgnNm": null,
+          "pfctNm": "예그리나어린이집 놀이터 A",
+          "rmk": "2019년 우수어린이놀이시설 선정 : 행정안전부 공고(2019-580호)",
+          "instSn": "1",
+          "instNm": "행정안전부",
+          "latCrtsVl": "36.5060084",
+          "lotCrtsVl": "127.2664963"
+        },
+        {
+          "exfcSn": "1088",
+          "dsgnYmd": "20171231",
+          "pfctSn": "561098",
+          "rgnCd": "2626010800",
+          "fctyCd": "71",
+          "rgnNm": null,
+          "pfctNm": "새들원 어린이놀이터",
+          "rmk": "2017년 우수어린이놀이시설 선정 : 행정안전부 공고(2017-236호)",
+          "instSn": "1",
+          "instNm": "행정안전부",
+          "latCrtsVl": "35.2133253",
+          "lotCrtsVl": "129.0643428"
+        },
+        {
+          "exfcSn": "1046",
+          "dsgnYmd": "20161231",
+          "pfctSn": "543983",
+          "rgnCd": "3611011000",
+          "fctyCd": "18",
+          "rgnNm": null,
+          "pfctNm": "이든샘어린이집 실외놀이시설",
+          "rmk": "2016년 우수어린이놀이시설 선정 : 국민안전처 공고(2016-372호)",
+          "instSn": "1",
+          "instNm": "행정안전부",
+          "latCrtsVl": "36.5042522",
+          "lotCrtsVl": "127.2652518"
+        },
+        {
+          "exfcSn": "1123",
+          "dsgnYmd": "20181231",
+          "pfctSn": "561227",
+          "rgnCd": "3114010900",
+          "fctyCd": "34",
+          "rgnNm": null,
+          "pfctNm": "선암호수공원 무지개놀이터",
+          "rmk": "2018년 우수어린이놀이시설 선정 : 행정안전부 공고(2018-720호)",
+          "instSn": "1",
+          "instNm": "행정안전부",
+          "latCrtsVl": "35.5149472",
+          "lotCrtsVl": "129.3383262"
+        }
+      ]
+    }
+  }
+}

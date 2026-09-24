@@ -1,0 +1,92 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "289",
+      "items": {
+        "item": [
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "해운대구",
+            "chctrNm": "BNK해운대어린이집",
+            "chctrTypeNm": "직장",
+            "operYn": "Y",
+            "zip": "48082",
+            "dtlAddr": "부산광역시 해운대구 대천로42번길 42 (중동)",
+            "telno": "051-746-2619",
+            "fxno": "051-746-2620",
+            "hopgUrlAddr": "http://www.puruni.com/busanbank2",
+            "careRoomCnt": "4",
+            "careRoomArea": "251",
+            "plgndCnt": "2",
+            "cctvInstlCnt": "12",
+            "nturEduStaffCnt": "10",
+            "pscpCnt": "65",
+            "cnppCnt": "22",
+            "fcltLat": "35.1714547373",
+            "fcltLot": "129.1714347481",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20150223",
+            "pvsnSrvcNm": "일반",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "해운대구",
+            "chctrNm": "EQ랜드 어린이집",
+            "chctrTypeNm": "가정",
+            "operYn": "Y",
+            "zip": "48083",
+            "dtlAddr": "부산광역시 해운대구 대천로 35 106동 101호(좌동, 효성코오롱아파트)",
+            "telno": "051-747-9202",
+            "fxno": "051-742-6202",
+            "hopgUrlAddr": "eq9202@hanmail.net",
+            "careRoomCnt": "4",
+            "careRoomArea": "108",
+            "plgndCnt": "1",
+            "cctvInstlCnt": "5",
+            "nturEduStaffCnt": "8",
+            "pscpCnt": "20",
+            "cnppCnt": "16",
+            "fcltLat": "35.17065716",
+            "fcltLot": "129.1687678",
+            "atschVhclOperYn": "Y",
+            "sncnYmd": "19971020",
+            "pvsnSrvcNm": "야간연장형",
+            "datCrtrYmd": "20250314"
+          },
+          {
+            "ctpvNm": "부산광역시",
+            "sggNm": "해운대구",
+            "chctrNm": "LG나리어린이집",
+            "chctrTypeNm": "가정",
+            "operYn": "Y",
+            "zip": "48075",
+            "dtlAddr": "부산광역시 해운대구 대천로103번길 61 121동 104호(좌동, 엘지아파트)",
+            "telno": "051-702-7913",
+            "fxno": "051-702-7913",
+            "hopgUrlAddr": null,
+            "careRoomCnt": "4",
+            "careRoomArea": "55",
+            "plgndCnt": "0",
+            "cctvInstlCnt": "4",
+            "nturEduStaffCnt": "7",
+            "pscpCnt": "19",
+            "cnppCnt": "11",
+            "fcltLat": "35.18071023",
+            "fcltLot": "129.1736083",
+            "atschVhclOperYn": "N",
+            "sncnYmd": "20080114",
+            "pvsnSrvcNm": "야간연장형,시간제보육",
+            "datCrtrYmd": "20250314"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}

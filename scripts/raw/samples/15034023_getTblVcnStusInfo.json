@@ -1,0 +1,53 @@
+{
+  "response": {
+    "header": {
+      "resultMsg": "NORMAL_CODE",
+      "resultCode": "00"
+    },
+    "body": {
+      "totalCount": "312",
+      "items": {
+        "item": [
+          {
+            "dataDay": "2025-07-14",
+            "kind": "DTaP(디프테리아/파상풍/백일해)",
+            "vaccinTarget": "2, 4, 6개월",
+            "vaccinTargetAdd": "15~18개월, 만4~6세",
+            "cost": "무료",
+            "reference": null,
+            "implmInst": "부산광역시 북구 보건소",
+            "workTime": "기관별 상이",
+            "tel": "051-309-7926",
+            "gugun": "북구"
+          },
+          {
+            "dataDay": "2025-07-14",
+            "kind": "IPV(폴리오)",
+            "vaccinTarget": "2, 4, 6개월",
+            "vaccinTargetAdd": "4~6세",
+            "cost": "무료",
+            "reference": null,
+            "implmInst": "부산광역시 북구 보건소",
+            "workTime": "기관별 상이",
+            "tel": "051-309-7926",
+            "gugun": "북구"
+          },
+          {
+            "dataDay": "2025-07-14",
+            "kind": "Hib(b형헤모필루스인플루엔자)",
+            "vaccinTarget": "2, 4, 6개월",
+            "vaccinTargetAdd": "12~15개월",
+            "cost": "무료",
+            "reference": null,
+            "implmInst": "부산광역시 북구 보건소",
+            "workTime": "기관별 상이",
+            "tel": "051-309-7926",
+            "gugun": "북구"
+          }
+        ]
+      },
+      "pageNo": "1",
+      "numOfRows": "3"
+    }
+  }
+}
